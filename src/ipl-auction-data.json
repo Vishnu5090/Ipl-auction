@@ -1,0 +1,1089 @@
+{
+  "auction": {
+    "players": {
+      "player1": {
+        "id": "player1",
+        "name": "RAVINDRA JADEJA",
+        "role": "All-Rounder",
+        "basePrice": 15,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.5,
+        "stats": {
+          "matches": 200,
+          "runs": 2500,
+          "wickets": 127
+        },
+        "imageUrl": "https://cdn.dnaindia.com/sites/default/files/2025/03/19/2683589-untitled-design-100.jpg?im=FitAndFill=(1200,900)"
+      },
+      "player2": {
+        "id": "player2",
+        "name": "JAISWAL",
+        "role": "Batsman",
+        "basePrice": 10,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 89.41,
+        "stats": {
+          "matches": 50,
+          "runs": 1500,
+          "average": 35.2
+        },
+        "imageUrl": "https://example.com/jaiswal.jpg"
+      },
+      "player3": {
+        "id": "player3",
+        "name": "SURYAKUMAR YADAV",
+        "role": "Batsman",
+        "basePrice": 12,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.04,
+        "stats": {
+          "matches": 120,
+          "runs": 3000,
+          "average": 38.5
+        },
+        "imageUrl": "https://example.com/surya.jpg"
+      },
+      "player4": {
+        "id": "player4",
+        "name": "TRAVIS HEAD",
+        "role": "Batsman",
+        "basePrice": 14,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 98,
+        "stats": {
+          "matches": 80,
+          "runs": 2200,
+          "average": 40.1
+        },
+        "imageUrl": "https://example.com/head.jpg"
+      },
+      "player5": {
+        "id": "player5",
+        "name": "PAT CUMMINS",
+        "role": "Bowler",
+        "basePrice": 13,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.92,
+        "stats": {
+          "matches": 100,
+          "wickets": 120,
+          "economy": 7.8
+        },
+        "imageUrl": "https://example.com/cummins.jpg"
+      },
+      "player6": {
+        "id": "player6",
+        "name": "KL RAHUL",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 16,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86,
+        "stats": {
+          "matches": 150,
+          "runs": 4970,
+          "average": 44.2
+        },
+        "imageUrl": "https://example.com/rahul.jpg"
+      },
+      "player7": {
+        "id": "player7",
+        "name": "AXAR PATEL",
+        "role": "All-Rounder",
+        "basePrice": 8,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81,
+        "stats": {
+          "matches": 130,
+          "runs": 1500,
+          "wickets": 100
+        },
+        "imageUrl": "https://example.com/axar.jpg"
+      },
+      "player8": {
+        "id": "player8",
+        "name": "MOHAMMED SHAMI",
+        "role": "Bowler",
+        "basePrice": 11,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.26,
+        "stats": {
+          "matches": 140,
+          "wickets": 160,
+          "economy": 8.1
+        },
+        "imageUrl": "https://example.com/shami.jpg"
+      },
+      "player9": {
+        "id": "player9",
+        "name": "SHUBMAN GILL",
+        "role": "Batsman",
+        "basePrice": 15,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.02,
+        "stats": {
+          "matches": 90,
+          "runs": 2800,
+          "average": 42.5
+        },
+        "imageUrl": "https://example.com/gill.jpg"
+      },
+      "player10": {
+        "id": "player10",
+        "name": "YUZVENDRA CHAHAL",
+        "role": "Bowler",
+        "basePrice": 9,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.72,
+        "stats": {
+          "matches": 150,
+          "wickets": 180,
+          "economy": 7.5
+        },
+        "imageUrl": "https://example.com/chahal.jpg"
+      },
+      "player11": {
+        "id": "player11",
+        "name": "ANDRE RUSSELL",
+        "role": "All-Rounder",
+        "basePrice": 14,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 89.5,
+        "stats": {
+          "matches": 120,
+          "runs": 2000,
+          "wickets": 90
+        },
+        "imageUrl": "https://example.com/russell.jpg"
+      },
+      "player12": {
+        "id": "player12",
+        "name": "KAGISO RABADA",
+        "role": "Bowler",
+        "basePrice": 12,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.69,
+        "stats": {
+          "matches": 100,
+          "wickets": 130,
+          "economy": 7.9
+        },
+        "imageUrl": "https://example.com/rabada.jpg"
+      },
+      "player13": {
+        "id": "player13",
+        "name": "NOOR AHMAD",
+        "role": "Bowler",
+        "basePrice": 7,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.83,
+        "stats": {
+          "matches": 30,
+          "wickets": 40,
+          "economy": 7.2
+        },
+        "imageUrl": "https://example.com/noor.jpg"
+      },
+      "player14": {
+        "id": "player14",
+        "name": "TRENT BOULT",
+        "role": "Bowler",
+        "basePrice": 10,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.39,
+        "stats": {
+          "matches": 110,
+          "wickets": 140,
+          "economy": 7.6
+        },
+        "imageUrl": "https://example.com/boult.jpg"
+      },
+      "player15": {
+        "id": "player15",
+        "name": "VARUN CHAKRAVARTHY",
+        "role": "Bowler",
+        "basePrice": 8,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.18,
+        "stats": {
+          "matches": 60,
+          "wickets": 70,
+          "economy": 7.4
+        },
+        "imageUrl": "https://example.com/varun.jpg"
+      },
+      "player16": {
+        "id": "player16",
+        "name": "ARSHDEEP SINGH",
+        "role": "Bowler",
+        "basePrice": 7,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.31,
+        "stats": {
+          "matches": 50,
+          "wickets": 60,
+          "economy": 8.2
+        },
+        "imageUrl": "https://example.com/arshdeep.jpg"
+      },
+      "player17": {
+        "id": "player17",
+        "name": "KULDEEP YADAV",
+        "role": "Bowler",
+        "basePrice": 9,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.73,
+        "stats": {
+          "matches": 100,
+          "wickets": 120,
+          "economy": 7.3
+        },
+        "imageUrl": "https://example.com/kuldeep.jpg"
+      },
+      "player18": {
+        "id": "player18",
+        "name": "JOFRA ARCHER",
+        "role": "Bowler",
+        "basePrice": 11,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.93,
+        "stats": {
+          "matches": 70,
+          "wickets": 90,
+          "economy": 7.7
+        },
+        "imageUrl": "https://example.com/archer.jpg"
+      },
+      "player19": {
+        "id": "player19",
+        "name": "MATHEESHA PATHIRANA",
+        "role": "Bowler",
+        "basePrice": 6,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.42,
+        "stats": {
+          "matches": 20,
+          "wickets": 25,
+          "economy": 8.0
+        },
+        "imageUrl": "https://example.com/pathirana.jpg"
+      },
+      "player20": {
+        "id": "player20",
+        "name": "BHUVNESHWAR KUMAR",
+        "role": "Bowler",
+        "basePrice": 8,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.64,
+        "stats": {
+          "matches": 160,
+          "wickets": 170,
+          "economy": 7.2
+        },
+        "imageUrl": "https://example.com/bhuvi.jpg"
+      },
+      "player21": {
+        "id": "player21",
+        "name": "JOSH HAZLEWOOD",
+        "role": "Bowler",
+        "basePrice": 10,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.85,
+        "stats": {
+          "matches": 80,
+          "wickets": 100,
+          "economy": 7.5
+        },
+        "imageUrl": "https://example.com/hazlewood.jpg"
+      },
+      "player22": {
+        "id": "player22",
+        "name": "MITCHELL STARC",
+        "role": "Bowler",
+        "basePrice": 14,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.55,
+        "stats": {
+          "matches": 90,
+          "wickets": 110,
+          "economy": 7.8
+        },
+        "imageUrl": "https://example.com/starc.jpg"
+      },
+      "player23": {
+        "id": "player23",
+        "name": "PHIL SALT",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 9,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 94,
+        "stats": {
+          "matches": 40,
+          "runs": 1200,
+          "average": 35.0
+        },
+        "imageUrl": "https://example.com/salt.jpg"
+      },
+      "player24": {
+        "id": "player24",
+        "name": "JITESH SHARMA",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 5,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84,
+        "stats": {
+          "matches": 30,
+          "runs": 600,
+          "average": 25.0
+        },
+        "imageUrl": "https://example.com/jitesh.jpg"
+      },
+      "player25": {
+        "id": "player25",
+        "name": "DHRUV JUREL",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 6,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.4,
+        "stats": {
+          "matches": 25,
+          "runs": 500,
+          "average": 28.0
+        },
+        "imageUrl": "https://example.com/jurel.jpg"
+      },
+      "player26": {
+        "id": "player26",
+        "name": "SANJU SAMSON",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 12,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.68,
+        "stats": {
+          "matches": 140,
+          "runs": 3500,
+          "average": 30.5
+        },
+        "imageUrl": "https://example.com/samson.jpg"
+      },
+      "player27": {
+        "id": "player27",
+        "name": "ISHAN KISHAN",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 11,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.86,
+        "stats": {
+          "matches": 90,
+          "runs": 2200,
+          "average": 32.0
+        },
+        "imageUrl": "https://example.com/ishan.jpg"
+      },
+      "player28": {
+        "id": "player28",
+        "name": "ABHISHEK POREL",
+        "role": "Batsman",
+        "basePrice": 7,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.44,
+        "stats": {
+          "matches": 20,
+          "runs": 400,
+          "average": 22.0
+        },
+        "imageUrl": "https://example.com/porel.jpg"
+      },
+      "player29": {
+        "id": "player29",
+        "name": "TRISTAN STUBBS",
+        "role": "Batsman",
+        "basePrice": 8,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 87.6,
+        "stats": {
+          "matches": 30,
+          "runs": 700,
+          "average": 28.0
+        },
+        "imageUrl": "https://example.com/stubbs.jpg"
+      },
+      "player30": {
+        "id": "player30",
+        "name": "PRABHSIMRAN SINGH",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 6,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.52,
+        "stats": {
+          "matches": 40,
+          "runs": 800,
+          "average": 24.0
+        },
+        "imageUrl": "https://example.com/prabhsimran.jpg"
+      },
+      "player31": {
+        "id": "player31",
+        "name": "QUINTON DE KOCK",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 13,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.84,
+        "stats": {
+          "matches": 130,
+          "runs": 4000,
+          "average": 35.0
+        },
+        "imageUrl": "https://example.com/dekock.jpg"
+      },
+      "player32": {
+        "id": "player32",
+        "name": "MS DHONI",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 15,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 89.74,
+        "stats": {
+          "matches": 250,
+          "runs": 5000,
+          "average": 40.0
+        },
+        "imageUrl": "https://example.com/dhoni.jpg"
+      },
+      "player33": {
+        "id": "player33",
+        "name": "JOS BUTTLER",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 16,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 90.44,
+        "stats": {
+          "matches": 120,
+          "runs": 3800,
+          "average": 36.0
+        },
+        "imageUrl": "https://example.com/buttler.jpg"
+      },
+      "player34": {
+        "id": "player34",
+        "name": "VIRAT KOHLI",
+        "role": "Batsman",
+        "basePrice": 17,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.4,
+        "stats": {
+          "matches": 230,
+          "runs": 7263,
+          "average": 37.25
+        },
+        "imageUrl": "https://example.com/kohli.jpg"
+      },
+      "player35": {
+        "id": "player35",
+        "name": "ROHIT SHARMA",
+        "role": "Batsman",
+        "basePrice": 16,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.53,
+        "stats": {
+          "matches": 240,
+          "runs": 6211,
+          "average": 30.5
+        },
+        "imageUrl": "https://example.com/rohit.jpg"
+      },
+      "player36": {
+        "id": "player36",
+        "name": "SHREYAS IYER",
+        "role": "Batsman",
+        "basePrice": 12,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83,
+        "stats": {
+          "matches": 110,
+          "runs": 2800,
+          "average": 32.0
+        },
+        "imageUrl": "https://example.com/iyer.jpg"
+      },
+      "player37": {
+        "id": "player37",
+        "name": "JASPRIT BUMRAH",
+        "role": "Bowler",
+        "basePrice": 15,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 88.09,
+        "stats": {
+          "matches": 120,
+          "wickets": 145,
+          "economy": 7.35
+        },
+        "imageUrl": "https://example.com/bumrah.jpg"
+      },
+      "player38": {
+        "id": "player38",
+        "name": "NICHOLAS POORAN",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 11,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 91,
+        "stats": {
+          "matches": 80,
+          "runs": 2000,
+          "average": 30.0
+        },
+        "imageUrl": "https://example.com/pooran.jpg"
+      },
+      "player39": {
+        "id": "player39",
+        "name": "HEINRICH KLASSEN",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 12,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 95,
+        "stats": {
+          "matches": 60,
+          "runs": 1500,
+          "average": 33.0
+        },
+        "imageUrl": "https://example.com/klassen.jpg"
+      },
+      "player40": {
+        "id": "player40",
+        "name": "RISHAB PANT",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 14,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 87,
+        "stats": {
+          "matches": 100,
+          "runs": 2800,
+          "average": 34.0
+        },
+        "imageUrl": "https://example.com/pant.jpg"
+      },
+      "player41": {
+        "id": "player41",
+        "name": "HARDIK PANDYA",
+        "role": "All-Rounder",
+        "basePrice": 13,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86,
+        "stats": {
+          "matches": 120,
+          "runs": 2000,
+          "wickets": 60
+        },
+        "imageUrl": "https://example.com/hardik.jpg"
+      },
+      "player42": {
+        "id": "player42",
+        "name": "RASHID KHAN",
+        "role": "Bowler",
+        "basePrice": 14,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.16,
+        "stats": {
+          "matches": 110,
+          "wickets": 140,
+          "economy": 6.8
+        },
+        "imageUrl": "https://example.com/rashid.jpg"
+      },
+      "player43": {
+        "id": "player43",
+        "name": "SUNIL NARINE",
+        "role": "All-Rounder",
+        "basePrice": 12,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.41,
+        "stats": {
+          "matches": 180,
+          "runs": 1000,
+          "wickets": 160
+        },
+        "imageUrl": "https://example.com/narine.jpg"
+      },
+      "player44": {
+        "id": "player44",
+        "name": "RUTURAJ GAIKWAD",
+        "role": "Batsman",
+        "basePrice": 11,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.85,
+        "stats": {
+          "matches": 60,
+          "runs": 1800,
+          "average": 38.0
+        },
+        "imageUrl": "https://example.com/gaikwad.jpg"
+      },
+      "player45": {
+        "id": "player45",
+        "name": "RAJAT PATIDAR",
+        "role": "Batsman",
+        "basePrice": 9,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 93,
+        "stats": {
+          "matches": 40,
+          "runs": 1200,
+          "average": 35.0
+        },
+        "imageUrl": "https://example.com/patidar.jpg"
+      },
+      "player46": {
+        "id": "player46",
+        "name": "JAKE FRASER McGURK",
+        "role": "Batsman",
+        "basePrice": 8,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 90,
+        "stats": {
+          "matches": 15,
+          "runs": 400,
+          "average": 30.0
+        },
+        "imageUrl": "https://example.com/mcgurk.jpg"
+      },
+      "player47": {
+        "id": "player47",
+        "name": "FAF DU PLESSIS",
+        "role": "Batsman",
+        "basePrice": 12,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84,
+        "stats": {
+          "matches": 130,
+          "runs": 4000,
+          "average": 36.0
+        },
+        "imageUrl": "https://example.com/duplessis.jpg"
+      },
+      "player48": {
+        "id": "player48",
+        "name": "TILAK VARMA",
+        "role": "Batsman",
+        "basePrice": 8,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.75,
+        "stats": {
+          "matches": 40,
+          "runs": 1000,
+          "average": 32.0
+        },
+        "imageUrl": "https://example.com/tilak.jpg"
+      },
+      "player49": {
+        "id": "player49",
+        "name": "RINKU SINGH",
+        "role": "Batsman",
+        "basePrice": 9,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.82,
+        "stats": {
+          "matches": 50,
+          "runs": 1200,
+          "average": 35.0
+        },
+        "imageUrl": "https://example.com/rinku.jpg"
+      },
+      "player50": {
+        "id": "player50",
+        "name": "DEVON CONWAY",
+        "role": "Batsman",
+        "basePrice": 13,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 91.5,
+        "stats": {
+          "matches": 60,
+          "runs": 2000,
+          "average": 42.0
+        },
+        "imageUrl": "https://example.com/conway.jpg"
+      },
+      "player51": {
+        "id": "player51",
+        "name": "AJINKYA RAHANE",
+        "role": "Batsman",
+        "basePrice": 7,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.61,
+        "stats": {
+          "matches": 170,
+          "runs": 4400,
+          "average": 31.0
+        },
+        "imageUrl": "https://example.com/rahane.jpg"
+      },
+      "player52": {
+        "id": "player52",
+        "name": "SAI SUDHARSAN",
+        "role": "Batsman",
+        "basePrice": 8,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 92.28,
+        "stats": {
+          "matches": 30,
+          "runs": 900,
+          "average": 36.0
+        },
+        "imageUrl": "https://example.com/sudharsan.jpg"
+      },
+      "player53": {
+        "id": "player53",
+        "name": "DAVID MILLER",
+        "role": "Batsman",
+        "basePrice": 11,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.75,
+        "stats": {
+          "matches": 120,
+          "runs": 2800,
+          "average": 38.0
+        },
+        "imageUrl": "https://example.com/miller.jpg"
+      },
+      "player54": {
+        "id": "player54",
+        "name": "SHIVAM DUBE",
+        "role": "All-Rounder",
+        "basePrice": 8,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.28,
+        "stats": {
+          "matches": 80,
+          "runs": 1200,
+          "wickets": 30
+        },
+        "imageUrl": "https://example.com/dube.jpg"
+      },
+      "player55": {
+        "id": "player55",
+        "name": "RAVICHANDRAN ASHWIN",
+        "role": "All-Rounder",
+        "basePrice": 10,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 72.96,
+        "stats": {
+          "matches": 200,
+          "runs": 1000,
+          "wickets": 170
+        },
+        "imageUrl": "https://example.com/ashwin.jpg"
+      },
+      "player56": {
+        "id": "player56",
+        "name": "NITISH KUMAR REDDY",
+        "role": "All-Rounder",
+        "basePrice": 5,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 70.64,
+        "stats": {
+          "matches": 15,
+          "runs": 200,
+          "wickets": 10
+        },
+        "imageUrl": "https://example.com/nitish.jpg"
+      },
+      "player57": {
+        "id": "player57",
+        "name": "KRUNAL PANDYA",
+        "role": "All-Rounder",
+        "basePrice": 7,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 76.32,
+        "stats": {
+          "matches": 110,
+          "runs": 1500,
+          "wickets": 60
+        },
+        "imageUrl": "https://example.com/krunal.jpg"
+      },
+      "player58": {
+        "id": "player58",
+        "name": "LIAM LIVINGSTONE",
+        "role": "All-Rounder",
+        "basePrice": 10,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.49,
+        "stats": {
+          "matches": 50,
+          "runs": 1200,
+          "wickets": 20
+        },
+        "imageUrl": "https://example.com/livingstone.jpg"
+      },
+      "player59": {
+        "id": "player59",
+        "name": "GLENN MAXWELL",
+        "role": "All-Rounder",
+        "basePrice": 12,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.73,
+        "stats": {
+          "matches": 130,
+          "runs": 2500,
+          "wickets": 40
+        },
+        "imageUrl": "https://example.com/maxwell.jpg"
+      },
+      "player60": {
+        "id": "player60",
+        "name": "MARCUS STOINIS",
+        "role": "All-Rounder",
+        "basePrice": 9,
+        "currentBid": 0,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.5,
+        "stats": {
+          "matches": 90,
+          "runs": 1800,
+          "wickets": 50
+        },
+        "imageUrl": "https://example.com/stoinis.jpg"
+      }
+    },
+    "teams": {
+      "team1": {
+        "id": "team1",
+        "name": "Mumbai Indians",
+        "shortName": "MI",
+        "budget": 85,
+        "players": {},
+        "logoUrl": "https://example.com/mi.png"
+      },
+      "team2": {
+        "id": "team2",
+        "name": "Chennai Super Kings",
+        "shortName": "CSK",
+        "budget": 90,
+        "players": {},
+        "logoUrl": "https://example.com/csk.png"
+      },
+      "team3": {
+        "id": "team3",
+        "name": "Royal Challengers Bangalore",
+        "shortName": "RCB",
+        "budget": 88,
+        "players": {},
+        "logoUrl": "https://example.com/rcb.png"
+      },
+      "team4": {
+        "id": "team4",
+        "name": "Rajasthan Royals",
+        "shortName": "RR",
+        "budget": 87,
+        "players": {},
+        "logoUrl": "https://example.com/rr.png"
+      },
+      "team5": {
+        "id": "team5",
+        "name": "Gujarat Titans",
+        "shortName": "GT",
+        "budget": 92,
+        "players": {},
+        "logoUrl": "https://example.com/gt.png"
+      },
+      "team6": {
+        "id": "team6",
+        "name": "Lucknow Super Giants",
+        "shortName": "LSG",
+        "budget": 89,
+        "players": {},
+        "logoUrl": "https://example.com/lsg.png"
+      },
+      "team7": {
+        "id": "team7",
+        "name": "Kolkata Knight Riders",
+        "shortName": "KKR",
+        "budget": 86,
+        "players": {},
+        "logoUrl": "https://example.com/kkr.png"
+      },
+      "team8": {
+        "id": "team8",
+        "name": "Delhi Capitals",
+        "shortName": "DC",
+        "budget": 90,
+        "players": {},
+        "logoUrl": "https://example.com/dc.png"
+      },
+      "team9": {
+        "id": "team9",
+        "name": "Sunrisers Hyderabad",
+        "shortName": "SRH",
+        "budget": 91,
+        "players": {},
+        "logoUrl": "https://example.com/srh.png"
+      },
+      "team10": {
+        "id": "team10",
+        "name": "Punjab Kings",
+        "shortName": "PBKS",
+        "budget": 88,
+        "players": {},
+        "logoUrl": "https://example.com/pbks.png"
+      }
+    },
+    "bids": {
+      "player1": {
+        "history": {
+          "bid1": {
+            "amount": 15,
+            "teamId": "team1",
+            "timestamp": 1620000000,
+            "status": "outbid"
+          }
+        }
+      },
+      "player2": {
+        "history": {
+          "bid2": {
+            "amount": 14,
+            "teamId": "team3",
+            "timestamp": 1620000500,
+            "status": "outbid"
+          },
+      "player3": {
+        "history": {
+          "bid3": {
+            "amount": 12,
+            "teamId": "team2",
+            "timestamp": 1620001000,
+            "status": "outbid"
+          }
+        }
+      }
+    },
+    "settings": {
+      "auctionStatus": "active"
+    }
+  },
+  "users": {
+    "user1": {
+      "email": "admin@example.com",
+      "isAdmin": true,
+      "teamId": ""
+    }
+  }
+}
+  }}
