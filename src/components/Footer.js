@@ -26,11 +26,15 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Follow Us</h4>
           <div className="social-links">
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-youtube"></i></a>
-          </div>
+          
+  <h4>Follow Us</h4>
+  <ul>
+    <li><a href="https://twitter.com/ipl" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+    <li><a href="https://instagram.com/ipl" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+    <li><a href="https://facebook.com/ipl" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+  </ul>
+</div>
+
         </div>
       </div>
       <div className="footer-bottom">

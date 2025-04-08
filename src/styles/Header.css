@@ -14,26 +14,15 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 1rem;
+  padding: 0.5rem 1rem;
+  height: 10px;
 }
 
-.logo a {
-  font-size: 1.8rem;
-  font-weight: 900;
-  text-decoration: none;
-  background: linear-gradient(90deg, #fbbf24, #f97316, #60a5fa); /* yellow → orange → blue */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 2px #000; /* black border look */
-}
 
 .main-nav ul {
   display: flex;
   list-style: none;
-  gap: 1.5rem;
+  gap:3rem;
 }
 
 .main-nav a {
@@ -124,9 +113,4 @@
   background-color: #dc2626;
 }
 
-.logo img,
-.logo-img {
-  height: 80px;
-  width: auto;
-  object-fit: contain;
-}
+

@@ -44,22 +44,25 @@ const AdminPage = () => {
       setError('Bid amount must be higher than current bid');
       return;
     }
-
+  
     try {
       const updates = {};
       const timestamp = Date.now();
-
-      updates[`auction/players/${playerId}/currentBid`] = bidAmount;
-
+  
+      updates[`auction/players/${playerId}/currentBid`] = parseFloat(bidAmount);
+  
       const bidHistoryRef = ref(database, `auction/bids/${playerId}/history`);
       const newBidKey = push(bidHistoryRef).key;
+  
       updates[`auction/bids/${playerId}/history/${newBidKey}`] = {
-        amount: bidAmount,
+        amount: parseFloat(bidAmount),
         timestamp,
         status: 'pending'
       };
-
-      await update(ref(database), updates);
+  
+      const rootRef = ref(database); // safer than ref(database, '')
+      await update(rootRef, updates);
+  
       setError('');
       alert('Bid updated successfully!');
     } catch (error) {
@@ -67,6 +70,7 @@ const AdminPage = () => {
       setError('Failed to update bid');
     }
   };
+  
 
   const assignPlayerToTeam = async () => {
     try {

@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 
   background-attachment: fixed;
   color: #fff;
@@ -79,6 +80,7 @@ body::-webkit-scrollbar {
   gap: 1.5rem;
   margin-bottom: 2.5rem;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .stat-card {
@@ -87,11 +89,11 @@ body::-webkit-scrollbar {
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  min-width: 130px;
+  min-width: 120px;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   transform: translateY(0);
   animation: fadeInUp 0.5s ease;
-  min-height: 50px;
+  min-height: 45px;
 }
 
 .stat-card:hover {
@@ -549,4 +551,36 @@ body::-webkit-scrollbar {
 .highlight-points {
   font-size: 2rem;         /* Even larger for the Points value */
   color: #3b82f6;          /* Same blue, or change if you like */
+}
+.highlight-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  background: linear-gradient(135deg, #babcdf, #8e92e7);
+  color: #ffffff;
+  border: 1px solid #38BDF8;
+  padding: 14px 22px;
+  border-radius: 10px;
+  transform: skewX(-10deg);
+  margin: 12px auto;
+  min-width: 200px;
+}
+
+.highlight-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  transform: skewX(10deg);
+  color: #F8FAFC; 
+  letter-spacing: 1px;
+}
+
+.highlight-value {
+  font-size: 1.8rem;
+  font-weight: 800;
+  transform: skewX(10deg);
+  color: #FFFFFF;
 }

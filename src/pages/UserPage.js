@@ -106,17 +106,6 @@ const UserPage = () => {
 
             <div className="player-info">
   <h2>{currentPlayer?.name}</h2>
-  <div className="player-bid highlight-bid-container">
-  <span className="highlight-bid-label">Current Bid:</span>{" "}
-  <span className="highlight-bid">₹{currentPlayer?.currentBid || 0} Cr</span>
-</div>
-
-<div className="player-points highlight-points-container">
-  <span className="highlight-points-label">Points:</span>{" "}
-  <span className="highlight-points">
-    {currentPlayer?.points || "N/A"}
-  </span>
-</div>
 
   <div className="player-role">
     Role: <span>{currentPlayer?.role || "N/A"}</span>
@@ -150,8 +139,15 @@ const UserPage = () => {
       {currentPlayer?.status}
     </span>
   </div>
+  <div className="highlight-panel bid-panel">
+  <div className="highlight-label">CURRENT BID</div>
+  <div className="highlight-value">₹ {currentPlayer?.currentBid || 0} Cr</div>
+</div>
 
-
+<div className="highlight-panel points-panel">
+  <div className="highlight-label">POINTS</div>
+  <div className="highlight-value">{currentPlayer?.points || "N/A"}</div>
+</div>
             </div>
           </div>
         </div>
