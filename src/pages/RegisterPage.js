@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { ref, set } from 'firebase/database';
 import { auth, database } from '../firebase';
-import '../styles/AuthPage.css';
+
 
 const RegisterPage = () => {
   const [formData, setFormData] = useState({
@@ -120,34 +120,6 @@ const RegisterPage = () => {
               onChange={handleChange}
               required
             />
-          </div>
-          
-          {/* Team name fields */}
-          <div className="form-group">
-            <label>Team Name:</label>
-            <input
-              type="text"
-              name="teamName"
-              value={formData.teamName}
-              onChange={handleChange}
-              placeholder="e.g., Mumbai Indians"
-              required
-            />
-          </div>
-          
-          <div className="form-group">
-            <label>Team Short Name (3-4 letters):</label>
-            <input
-              type="text"
-              name="teamShortName"
-              value={formData.teamShortName}
-              onChange={handleChange}
-              placeholder="e.g., MI"
-              minLength="2"
-              maxLength="4"
-              required
-            />
-            <small className="hint">This will be your team ID (e.g., MI, CSK, RCB)</small>
           </div>
           
           <button type="submit" disabled={loading}>

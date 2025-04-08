@@ -7,7 +7,7 @@ import '../styles/Header.css';
 const Header = () => {
   const navigate = useNavigate();
   const user = auth.currentUser;
-
+ 
   const handleLogout = async () => {
     try {
       await signOut(auth);
@@ -36,12 +36,13 @@ const Header = () => {
           {user ? (
             <>
               <span className="welcome-msg">Welcome, {user.email}</span>
+              <button className="btn-logout" onClick={handleLogout}>Admin</button>
               <button className="btn-logout" onClick={handleLogout}>Logout</button>
             </>
           ) : (
             <>
-              <Link to="/login" className="btn-login">Login</Link>
-              <Link to="/register" className="btn-register">Register</Link>
+              <Link to="/login" className="btn-login">Admin</Link>
+              {/*<Link to="/register" className="btn-register">Register</Link>*/}
             </>
           )}
         </div>
