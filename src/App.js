@@ -6,7 +6,7 @@ import RegisterPage from './pages/RegisterPage';
 import './App.css';
 import UserPage from './pages/UserPage.js';
 import AdminPage from './pages/AdminPage';
-
+import TeamViewPage from './pages/TeamViewPage.js';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <Route path="/AdminPage" element={<AdminPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        
+        <Route path="/TeamViewPage" element={<TeamViewPage />} />
       </Routes>
     </div>
   );
