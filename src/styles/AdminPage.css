@@ -1,211 +1,359 @@
-/* Root container */
+/* AdminPage.css */
+
 .admin-container {
   padding: 2rem;
-  font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #eaf0ff, #f5f9ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #1a202c;
   min-height: 100vh;
-  color: #333;
 }
 
-/* Headings */
-h1 {
+.AdminD {
   text-align: center;
-  margin-bottom: 2rem;
-  color: #1a237e;
-  font-size: 2.2rem;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #4169e1; /* Bright gold color */
+    text-shadow: 1px 1px 8px #000;
 }
 
-/* Error Message */
 .error-message {
-  background-color: #fdecea;
-  color: #d32f2f;
-  padding: 0.75rem 1.25rem;
-  border-radius: 10px;
-  border: 1px solid #f5c6cb;
+  color: #e53e3e;
   text-align: center;
-  margin-bottom: 1.5rem;
-  font-weight: 500;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
 
-/* Loading */
 .loading {
   text-align: center;
-  font-size: 1.3rem;
-  color: #3f51b5;
   padding: 3rem;
+  font-size: 1.2rem;
 }
 
-/* Player Grid */
+/* Player grid */
 .player-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-/* Player Card */
 .player-card {
-  background: #ffffff;
-  border-radius: 16px;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
-  transition: all 0.25s ease;
   cursor: pointer;
-  border: 2px solid transparent;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .player-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(63, 81, 181, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .player-card.selected {
-  border-color: #3f51b5;
-  background-color: #eef3ff;
+  border: 2px solid #3182ce;
 }
 
 .player-image img {
   width: 100%;
-  height: 160px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   margin-bottom: 0.75rem;
 }
 
 .player-info h3 {
-  color: #1a237e;
+  margin: 0;
   font-size: 1.1rem;
-  margin: 0.4rem 0;
+  color: #2b6cb0;
 }
 
 .player-info p {
+  margin: 0.25rem 0;
   font-size: 0.9rem;
-  margin: 0.2rem 0;
-  color: #444;
 }
 
-/* Status colors */
 .status-sold {
-  color: #c62828;
-  font-weight: bold;
+  color: green;
+  font-weight: 600;
 }
 
 .status-unsold {
-  color: #2e7d32;
-  font-weight: bold;
+  color: #e53e3e;
+  font-weight: 600;
 }
 
 /* Player Detail View */
 .player-detail-view {
-  background: #ffffff;
-  padding: 2rem;
-  border-radius: 20px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  margin-top: 2.5rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .player-detail-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-items: flex-start;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .player-image-large img {
-  width: 240px;
-  height: 320px;
+  width: 100%;
+  max-height: 320px;
   object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
 }
 
-/* Player Info */
-.player-detail-info {
-  flex: 1;
-  min-width: 250px;
+.player-detail-info h2 {
+  font-size: 1.5rem;
+  color: #2c5282;
+  margin-bottom: 1rem;
 }
 
 .detail-row {
-  margin-bottom: 1rem;
   display: flex;
-  gap: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 1rem;
 }
 
 .detail-label {
   font-weight: 600;
-  width: 120px;
-  color: #303f9f;
+  color: #4a5568;
 }
 
-/* Admin Controls */
 .admin-controls {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .bid-control,
 .team-assignment {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
   margin-bottom: 1.5rem;
+}
+
+.bid-control label,
+.team-assignment label {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+input[type="number"],
+select {
+  padding: 0.5rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #3182ce;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2b6cb0;
+}
+
+button:disabled {
+  background-color: #a0aec0;
+  cursor: not-allowed;
+}
+/* Top player card image alignment */
+.player-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+/* Bottom player detail view image smaller */
+.player-image-large img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+/* Circular navigation button at bottom */
+.bottom-nav-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #3182ce;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.bottom-nav-button:hover {
+  background-color: #2b6cb0;
+}
+/* Bottom player detail card styling */
+.player-detail-view {
+  margin-top: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.player-detail-card {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  max-width: 900px;
+  width: 100%;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Reduced image size and stylish look */
+.player-image-large {
+  flex: 0 0 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-image-large img {
+  width: 140px; /* reduced from full width */
+  height: 140px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 4px solid #edf2f7;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Info section with neat layout */
+.player-detail-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.admin-controls {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .bid-control input,
 .team-assignment select {
-  padding: 0.6rem;
-  margin-left: 1rem;
-  font-size: 1rem;
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 8px;
-  width: 200px;
-  transition: border 0.2s ease;
+  width: 100%;
 }
 
-.bid-control input:focus,
-.team-assignment select:focus {
-  border-color: #3f51b5;
-  outline: none;
-}
-
-button {
-  padding: 0.55rem 1.4rem;
-  background-color: #3f51b5;
+.bid-control button,
+.team-assignment button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #3182ce;
   color: white;
   border: none;
-  border-radius: 10px;
-  margin-left: 1rem;
+  border-radius: 0.5rem;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: background 0.3s ease;
 }
 
-button:hover:not(:disabled) {
-  background-color: #303f9f;
-  transform: scale(1.03);
+.bid-control button:hover,
+.team-assignment button:hover {
+  background-color: #2b6cb0;
+}
+.bid-and-team-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-end;
+  margin-top: 1rem;
 }
 
-button:disabled {
-  background-color: #b0bec5;
-  cursor: not-allowed;
+/* Group bid label + input + button */
+.bid-control, .team-assignment {
+  flex: 1;
+  min-width: 250px;
 }
 
-/* Responsive tweaks */
-@media (max-width: 768px) {
-  .player-detail-card {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .player-image-large img {
-    width: 100%;
-    height: auto;
-  }
-
-  .bid-control input,
-  .team-assignment select {
-    width: 100%;
-    margin: 0.5rem 0 0 0;
-  }
-
-  button {
-    width: 100%;
-    margin-top: 0.5rem;
-    margin-left: 0;
-  }
+/* Optional: style labels consistently */
+.bid-control label,
+.team-assignment label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #333;
 }
 
+/* Add spacing below inputs and buttons */
+.bid-control input,
+.team-assignment select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.bid-control button,
+.team-assignment button {
+  padding: 0.5rem 1rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.bid-control button:hover,
+.team-assignment button:hover {
+  background-color: #2b6cb0;
+}

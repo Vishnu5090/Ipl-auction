@@ -7,6 +7,7 @@ import './App.css';
 import UserPage from './pages/UserPage.js';
 import AdminPage from './pages/AdminPage';
 
+
 function App() {
   return (
     <div className="App">
@@ -16,10 +17,7 @@ function App() {
         <Route path="/AdminPage" element={<AdminPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-
         
-
-        {/* other routes */}
       </Routes>
     </div>
   );

@@ -16,29 +16,33 @@ const AdminPage = () => {
   useEffect(() => {
     const playersRef = ref(database, 'auction/players');
     const teamsRef = ref(database, 'auction/teams');
-
+  
     const unsubscribePlayers = onValue(playersRef, (snapshot) => {
       const playersData = snapshot.val();
       const playersArray = Object.entries(playersData || {}).map(([id, player]) => ({
         id,
         ...player
       }));
+  
+      // Sort players based on order field
+      playersArray.sort((a, b) => a.order - b.order);
+  
       setPlayers(playersArray);
       setLoading(false);
     });
-
+  
     const unsubscribeTeams = onValue(teamsRef, (snapshot) => {
       const teamsData = snapshot.val();
       const teamArray = Object.entries(teamsData || {}).map(([id, team]) => ({ id, ...team }));
       setTeams(teamArray);
     });
-
+  
     return () => {
       unsubscribePlayers();
       unsubscribeTeams();
     };
   }, []);
-
+  
   const handleBidUpdate = async (playerId) => {
     if (!selectedPlayer || bidAmount <= selectedPlayer.currentBid) {
       setError('Bid amount must be higher than current bid');
@@ -121,11 +125,20 @@ const AdminPage = () => {
 
   return (
     <div className="admin-container">
-      <h1>Admin Dashboard</h1>
+      <h1 className='AdminD'>Admin Dashboard</h1>
       {error && <div className="error-message">{error}</div>}
 
       <div className="player-management">
+      <button
+  className="bottom-nav-button"
+  onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
+  title="Scroll to bottom"
+>
+  ↓
+</button>
+
           <div className="player-grid">
+
           {players.map(player => (
             <div
               key={player.id}
@@ -162,9 +175,7 @@ const AdminPage = () => {
       {selectedPlayer && (
         <div className="player-detail-view">
           <div className="player-detail-card">
-            <div className="player-image-large">
-              <img src={selectedPlayer.imageUrl || '/default-player.png'} alt={selectedPlayer.name} />
-            </div>
+            
             <div className="player-detail-info">
               <h2>{selectedPlayer.name}</h2>
               <div className="detail-row">
