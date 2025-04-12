@@ -3,7 +3,6 @@ import { ref, onValue, update, push, set } from 'firebase/database';
 import { database } from '../firebase';
 import '../styles/AdminPage.css';
 
-
 const AdminPage = () => {
   const [players, setPlayers] = useState([]);
   const [teams, setTeams] = useState([]);
@@ -16,65 +15,60 @@ const AdminPage = () => {
   useEffect(() => {
     const playersRef = ref(database, 'auction/players');
     const teamsRef = ref(database, 'auction/teams');
-  
+
     const unsubscribePlayers = onValue(playersRef, (snapshot) => {
       const playersData = snapshot.val();
       const playersArray = Object.entries(playersData || {}).map(([id, player]) => ({
         id,
         ...player
       }));
-  
-      // Sort players based on order field
+
       playersArray.sort((a, b) => a.order - b.order);
-  
       setPlayers(playersArray);
       setLoading(false);
     });
-  
+
     const unsubscribeTeams = onValue(teamsRef, (snapshot) => {
       const teamsData = snapshot.val();
       const teamArray = Object.entries(teamsData || {}).map(([id, team]) => ({ id, ...team }));
       setTeams(teamArray);
     });
-  
+
     return () => {
       unsubscribePlayers();
       unsubscribeTeams();
     };
   }, []);
-  
-  const handleBidUpdate = async (playerId) => {
-    if (!selectedPlayer || bidAmount <= selectedPlayer.currentBid) {
-      setError('Bid amount must be higher than current bid');
-      return;
-    }
-  
-    try {
-      const updates = {};
-      const timestamp = Date.now();
-  
-      updates[`auction/players/${playerId}/currentBid`] = parseFloat(bidAmount);
-  
-      const bidHistoryRef = ref(database, `auction/bids/${playerId}/history`);
-      const newBidKey = push(bidHistoryRef).key;
-  
-      updates[`auction/bids/${playerId}/history/${newBidKey}`] = {
-        amount: parseFloat(bidAmount),
-        timestamp,
-        status: 'pending'
-      };
-  
-      const rootRef = ref(database); // safer than ref(database, '')
-      await update(rootRef, updates);
-  
-      setError('');
-      alert('Bid updated successfully!');
-    } catch (error) {
-      console.error('Error updating bid:', error);
-      setError('Failed to update bid');
-    }
-  };
-  
+
+  useEffect(() => {
+    const autoUpdateBid = async () => {
+      if (!selectedPlayer || bidAmount <= selectedPlayer.currentBid) return;
+
+      try {
+        const timestamp = Date.now();
+        const updates = {};
+
+        updates[`auction/players/${selectedPlayer.id}/currentBid`] = parseFloat(bidAmount);
+
+        const bidHistoryRef = ref(database, `auction/bids/${selectedPlayer.id}/history`);
+        const newBidKey = push(bidHistoryRef).key;
+
+        updates[`auction/bids/${selectedPlayer.id}/history/${newBidKey}`] = {
+          amount: parseFloat(bidAmount),
+          timestamp,
+          status: 'pending'
+        };
+
+        await update(ref(database), updates);
+        setError('');
+      } catch (error) {
+        console.error('Auto bid update error:', error);
+        setError('Auto-update failed');
+      }
+    };
+
+    autoUpdateBid();
+  }, [bidAmount, selectedPlayer]);
 
   const assignPlayerToTeam = async () => {
     try {
@@ -84,7 +78,6 @@ const AdminPage = () => {
       }
 
       const team = teams.find(t => t.id === selectedTeamId);
-
       if (!team) {
         setError('Invalid team selection');
         return;
@@ -99,7 +92,6 @@ const AdminPage = () => {
 
       updates[`auction/players/${selectedPlayer.id}/teamId`] = selectedTeamId;
       updates[`auction/players/${selectedPlayer.id}/status`] = 'sold';
-
       updates[`auction/teams/${selectedTeamId}/players/${selectedPlayer.id}`] = true;
       updates[`auction/teams/${selectedTeamId}/budget`] = team.budget - selectedPlayer.currentBid;
 
@@ -129,26 +121,23 @@ const AdminPage = () => {
       {error && <div className="error-message">{error}</div>}
 
       <div className="player-management">
-      <button
-  className="bottom-nav-button"
-  onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
-  title="Scroll to bottom"
->
-  ↓
-</button>
+        <button
+          className="bottom-nav-button"
+          onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
+          title="Scroll to bottom"
+        >
+          ↓
+        </button>
 
-          <div className="player-grid">
-
+        <div className="player-grid">
           {players.map(player => (
             <div
               key={player.id}
               className={`player-card ${selectedPlayer?.id === player.id ? 'selected' : ''}`}
               onClick={() => {
                 setSelectedPlayer(player);
-                setBidAmount(player.currentBid + 0.25);
+                setBidAmount(player.currentBid); // Set to exact current bid
                 setSelectedTeamId('');
-
-                // Set current player in Firebase
                 const currentPlayerRef = ref(database, 'auction/currentPlayer');
                 set(currentPlayerRef, {
                   id: player.id,
@@ -175,7 +164,6 @@ const AdminPage = () => {
       {selectedPlayer && (
         <div className="player-detail-view">
           <div className="player-detail-card">
-            
             <div className="player-detail-info">
               <h2>{selectedPlayer.name}</h2>
               <div className="detail-row">
@@ -189,9 +177,8 @@ const AdminPage = () => {
               <div className="detail-row">
                 <span className="detail-label">Current Bid:</span>
                 <span>
-  ₹{players.find(p => p.id === selectedPlayer.id)?.currentBid || selectedPlayer.currentBid} Cr
-</span>
-
+                  ₹{players.find(p => p.id === selectedPlayer.id)?.currentBid || selectedPlayer.currentBid} Cr
+                </span>
               </div>
               <div className="detail-row">
                 <span className="detail-label">Points:</span>
@@ -210,15 +197,37 @@ const AdminPage = () => {
                     New Bid Amount (₹ Cr):
                     <input
                       type="number"
-                      min={selectedPlayer.currentBid + 0.25}
-                      step="0.25"
+                      min={selectedPlayer.currentBid}
+                      step="0.01"
                       value={bidAmount}
-                      onChange={(e) => setBidAmount(parseFloat(e.target.value))}
+                      onChange={(e) => {
+                        const newValue = parseFloat(e.target.value);
+                        if (!isNaN(newValue)) {
+                          setBidAmount(newValue);
+                        }
+                      }}
                     />
                   </label>
-                  <button onClick={() => handleBidUpdate(selectedPlayer.id)}>
-                    Update Bid
-                  </button>
+                  <div className="bid-increment-buttons">
+                    <button 
+                      onClick={() => {
+                        const newBid = parseFloat((bidAmount + 0.2).toFixed(2));
+                        setBidAmount(newBid);
+                      }}
+                      disabled={bidAmount >= 5}
+                    >
+                      +0.2Cr (Below 5Cr)
+                    </button>
+                    <button 
+                      onClick={() => {
+                        const newBid = parseFloat((bidAmount + 0.5).toFixed(2));
+                        setBidAmount(newBid);
+                      }}
+                      disabled={bidAmount < 5}
+                    >
+                      +0.5Cr (5Cr+)
+                    </button>
+                  </div>
                 </div>
 
                 <div className="team-assignment">

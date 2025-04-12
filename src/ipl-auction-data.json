@@ -1,669 +1,710 @@
 {
   "auction": {
     "players": {
-    "player1": {
-    "id": "player1",
-    "name": "MS DHONI",
-    "role": "Wicketkeeper-Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 89.74,
-    "stats": {
-      "runs": 5319,
-      "matches": 268,
-      "average": 39.4
-    },
-    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/57.png"
-  },
-  "player2": {
-    "id": "player2",
-    "name": "JOS BUTTLER ✈",
-    "role": "Wicketkeeper-Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 90.44,
-    "stats": {
-      "runs": 3748,
-      "matches": 111,
-      "average": 38.64
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEizT3QkPHIHhLkWnB5jdOCrdH0_6gIVgbQ&s"
-  },
-  "player3": {
-    "id": "player3",
-    "name": "VIRAT KOHLI",
-    "role": "Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 86.4,
-    "stats": {
-      "runs": 8168,
-      "matches": 256,
-      "average": 38.9
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXd7IOQ0NKyGMznUdvuNfPqT1PjyLLWs2PlA&s"
-  },
-  "player4": {
-    "id": "player4",
-    "name": "ROHIT SHARMA",
-    "role": "Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 83.53,
-    "stats": {
-      "runs": 6666,
-      "matches": 261,
-      "average": 29.58
-    },
-    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/6.png"
-  },
-  "player5": {
-    "id": "player5",
-    "name": "SHREYAS IYER",
-    "role": "Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 83,
-    "stats": {
-      "runs": 3286,
-      "matches": 118,
-      "average": 33.53
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO10-jV4zy9JtIxbWzRZiJagKzkYR4l507Cw&s"
-  },
-  "player6": {
-    "id": "player6",
-    "name": "JASPRIT BUMRAH",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 88.09,
-    "stats": {
-      "wickets": 165,
-      "matches": 134,
-      "economy": 7.39
-    },
-    "imageUrl": "https://cricketcupworld.com/wp-content/uploads/2024/05/jasprit-bumrah-AA.webp"
-  },
-  "player7": {
-    "id": "player7",
-    "name": "NICHOLAS POORAN ✈",
-    "role": "Wicketkeeper-Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 91,
-    "stats": {
-      "runs": 1970,
-      "matches": 80,
-      "average": 33.28
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3PkpIZ8sEcLwClj2U8gdKQKWMgL6s3DYX8w&s"
-  },
-  "player8": {
-    "id": "player8",
-    "name": "HEINRICH KLAASEN ✈",
-    "role": "Wicketkeeper-Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 95,
-    "stats": {
-      "runs": 1145,
-      "matches": 40,
-      "average": 36.7
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsW85temwvV2nqIf638udXfEPq1_7RJ87iKQ&s"
-  },
-  "player9": {
-    "id": "player9",
-    "name": "RISHABH PANT",
-    "role": "Wicketkeeper-Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 87,
-    "stats": {
-      "runs": 3303,
-      "matches": 115,
-      "average": 34.61
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOqGx9IbjCLj7V8-TCNo4Cv0y_o2AD1SSm0A&s"
-  },
-  "player10": {
-    "id": "player10",
-    "name": "HARDIK PANDYA",
-    "role": "All-Rounder",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 86,
-    "stats": {
-      "runs": 2606,
-      "wickets": 74,
-      "matches": 141
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMl97E5YCG_qhtODqspjhQbiVKdgkGSQoj2w&s"
-  },
-  "player11": {
-    "id": "player11",
-    "name": "RASHID KHAN ✈",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 85.16,
-    "stats": {
-      "wickets": 150,
-      "matches": 125,
-      "economy": 6.93
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdvy55xPh_hFyF_jCoudSubSc0kSS6GRpqA&s"
-  },
-  "player12": {
-    "id": "player12",
-    "name": "SUNIL NARINE ✈",
-    "role": "All-Rounder",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 84.41,
-    "stats": {
-      "runs": 1585,
-      "wickets": 182,
-      "matches": 179
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOqevcBB9pEcKtT37VNVYm6Nva5_U0XUHuQ&s"
-  },
+      "player1": {
+        "id": "player1",
+        "name": "MS DHONI",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 2,
+        "currentBid": 2
+        ,
+        "teamId": "",
+        "status": "unsold",
+        "points": 89.74,
+        "stats": {
+          "runs": 5319,
+          "matches": 268,
+          "average": 39.4
+        },
+        "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/57.png",
+        "order": 1
+      },
+      "player2": {
+        "id": "player2",
+        "name": "JOS BUTTLER \u2708",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 90.44,
+        "stats": {
+          "runs": 3748,
+          "matches": 111,
+          "average": 38.64
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHEizT3QkPHIHhLkWnB5jdOCrdH0_6gIVgbQ&s",
+        "order": 2
+      },
+      "player3": {
+        "id": "player3",
+        "name": "VIRAT KOHLI",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.4,
+        "stats": {
+          "runs": 8168,
+          "matches": 256,
+          "average": 38.9
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXd7IOQ0NKyGMznUdvuNfPqT1PjyLLWs2PlA&s",
+        "order": 3
+      },
+      "player4": {
+        "id": "player4",
+        "name": "ROHIT SHARMA",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.53,
+        "stats": {
+          "runs": 6666,
+          "matches": 261,
+          "average": 29.58
+        },
+        "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/6.png",
+        "order": 4
+      },
+      "player5": {
+        "id": "player5",
+        "name": "SHREYAS IYER",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83,
+        "stats": {
+          "runs": 3286,
+          "matches": 118,
+          "average": 33.53
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO10-jV4zy9JtIxbWzRZiJagKzkYR4l507Cw&s",
+        "order": 5
+      },
+      "player6": {
+        "id": "player6",
+        "name": "JASPRIT BUMRAH",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 88.09,
+        "stats": {
+          "wickets": 165,
+          "matches": 134,
+          "economy": 7.39
+        },
+        "imageUrl": "https://cricketcupworld.com/wp-content/uploads/2024/05/jasprit-bumrah-AA.webp",
+        "order": 6
+      },
+      "player7": {
+        "id": "player7",
+        "name": "NICHOLAS POORAN \u2708",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 91,
+        "stats": {
+          "runs": 1970,
+          "matches": 80,
+          "average": 33.28
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3PkpIZ8sEcLwClj2U8gdKQKWMgL6s3DYX8w&s",
+        "order": 7
+      },
+      "player8": {
+        "id": "player8",
+        "name": "HEINRICH KLAASEN \u2708",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 95,
+        "stats": {
+          "runs": 1145,
+          "matches": 40,
+          "average": 36.7
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsW85temwvV2nqIf638udXfEPq1_7RJ87iKQ&s",
+        "order": 8
+      },
+      "player9": {
+        "id": "player9",
+        "name": "RISHABH PANT",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 87,
+        "stats": {
+          "runs": 3303,
+          "matches": 115,
+          "average": 34.61
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOqGx9IbjCLj7V8-TCNo4Cv0y_o2AD1SSm0A&s",
+        "order": 9
+      },
+      "player10": {
+        "id": "player10",
+        "name": "HARDIK PANDYA",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86,
+        "stats": {
+          "runs": 2606,
+          "wickets": 74,
+          "matches": 141
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMl97E5YCG_qhtODqspjhQbiVKdgkGSQoj2w&s",
+        "order": 10
+      },
+      "player11": {
+        "id": "player11",
+        "name": "RASHID KHAN \u2708",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.16,
+        "stats": {
+          "wickets": 150,
+          "matches": 125,
+          "economy": 6.93
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMdvy55xPh_hFyF_jCoudSubSc0kSS6GRpqA&s",
+        "order": 11
+      },
+      "player12": {
+        "id": "player12",
+        "name": "SUNIL NARINE \u2708",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.41,
+        "stats": {
+          "runs": 1585,
+          "wickets": 182,
+          "matches": 179
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOqevcBB9pEcKtT37VNVYm6Nva5_U0XUHuQ&s",
+        "order": 12
+      },
       "player13": {
-    "id": "player13",
-    "name": "RAVINDRA JADEJA",
-    "role": "All-Rounder",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 81.5,
-    "stats": {
-      "runs": 3035,
-      "wickets": 162,
-      "matches": 244
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYpDbt4dcJeQTWBQ5lpFSZfDh5oeWNdqFBdw&s"
-  },
-  "player14": {
-    "id": "player14",
-    "name": "YASHASVI JAISWAL",
-    "role": "Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 89.41,
-    "stats": {
-      "runs": 1708,
-      "matches": 56,
-      "average": 31.56
-    },
-    "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/533.png"
-  },
-  "player15": {
-    "id": "player15",
-    "name": "SURYAKUMAR YADAV",
-    "role": "Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 86.04,
-    "stats": {
-      "runs": 3793,
-      "matches": 155,
-      "average": 32.73
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrqk0b4qee08gNUfjYaBjCDR676Da0MR_qTg&s"
-  },
-  "player16": {
-    "id": "player16",
-    "name": "TRAVIS HEAD ✈",
-    "role": "Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 98,
-    "stats": {
-      "runs": 920,
-      "matches": 30,
-      "average": 35.79
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0vn9N6PvX48u9ga2P96q3nIH6AlKYC919Kg&s"
-  },
-  "player17": {
-    "id": "player17",
-    "name": "PAT CUMMINS ✈",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 81.92,
-    "stats": {
-      "wickets": 67,
-      "matches": 63,
-      "economy": 8.92
-    },
-    "imageUrl": "https://www.livemint.com/lm-img/img/2024/11/07/1600x900/Pat_Cummins_1730981050705_1730981051004.jpg"
-  },
-  "player18": {
-    "id": "player18",
-    "name": "KL RAHUL",
-    "role": "Wicketkeeper-Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 86,
-    "stats": {
-      "runs": 4775,
-      "matches": 134,
-      "average": 45.07
-    },
-    "imageUrl": "https://www.lucknowsupergiants.in/static-assets/images/players/60122.png?v=12.64"
-  },
-  "player19": {
-    "id": "player19",
-    "name": "AXAR PATEL",
-    "role": "All-Rounder",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 87,
-    "stats": {
-      "runs": 3147,
-      "wickets": 123,
-      "matches": 153
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStKjG7VmbocwLX_ga_EswmfLX86mQYczpaJQ&s"
-  },
-  "player20": {
-    "id": "player20",
-    "name": "MOHAMMED SHAMI",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 84.26,
-    "stats": {
-      "wickets": 132,
-      "matches": 115,
-      "economy": 8.44
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSog20IJSvJZdfR3408MijeJcZZR0TZ5mTiSQ&s"
-  },
-  "player21": {
-    "id": "player21",
-    "name": "SHUBMAN GILL",
-    "role": "Batsman",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 85.02,
-    "stats": {
-      "runs": 3362,
-      "matches": 107,
-      "average": 38.7
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYhDFGgcZG3nWNFdw2fmhU1_WyE4JyS6kBUw&s"
-  },
-  "player22": {
-    "id": "player22",
-    "name": "YUZVENDRA CHAHAL",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 85.72,
-    "stats": {
-      "wickets": 206,
-      "matches": 163,
-      "economy": 7.8
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo1G_j9tvXcUKeiW0V2C9y_v4nWSuXi-Zf0g&s"
-  },
-  "player23": {
-    "id": "player23",
-    "name": "ANDRE RUSSELL ✈",
-    "role": "All-Rounder",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 89.5,
-    "stats": {
-      "runs": 2494,
-      "wickets": 119,
-      "matches": 130
-    },
-    "imageUrl": "https://static.toiimg.com/thumb/msid-115234651,width-1280,height-720,imgsize-46222,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-  },
-  "player24": {
-    "id": "player24",
-    "name": "KAGISO RABADA ✈",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 84.69,
-    "stats": {
-      "wickets": 119,
-      "matches": 82,
-      "economy": 8.42
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuYDHtufQp-egUFi3J6yc18aC6Pq4b0Q4zTg&s"
-  },
-        "player25": {
-          "id": "player25",
-          "name": "PHIL SALT ✈",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 94,
-          "stats": {
+        "id": "player13",
+        "name": "RAVINDRA JADEJA",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.5,
+        "stats": {
+          "runs": 3035,
+          "wickets": 162,
+          "matches": 244
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYpDbt4dcJeQTWBQ5lpFSZfDh5oeWNdqFBdw&s",
+        "order": 13
+      },
+      "player14": {
+        "id": "player14",
+        "name": "YASHASVI JAISWAL",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 89.41,
+        "stats": {
+          "runs": 1708,
+          "matches": 56,
+          "average": 31.56
+        },
+        "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/533.png",
+        "order": 14
+      },
+      "player15": {
+        "id": "player15",
+        "name": "SURYAKUMAR YADAV",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.04,
+        "stats": {
+          "runs": 3793,
+          "matches": 155,
+          "average": 32.73
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrqk0b4qee08gNUfjYaBjCDR676Da0MR_qTg&s",
+        "order": 15
+      },
+      "player16": {
+        "id": "player16",
+        "name": "TRAVIS HEAD \u2708",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 98,
+        "stats": {
+          "runs": 920,
+          "matches": 30,
+          "average": 35.79
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0vn9N6PvX48u9ga2P96q3nIH6AlKYC919Kg&s",
+        "order": 16
+      },
+      "player17": {
+        "id": "player17",
+        "name": "PAT CUMMINS \u2708",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.92,
+        "stats": {
+          "wickets": 67,
+          "matches": 63,
+          "economy": 8.92
+        },
+        "imageUrl": "https://www.livemint.com/lm-img/img/2024/11/07/1600x900/Pat_Cummins_1730981050705_1730981051004.jpg",
+        "order": 17
+      },
+      "player18": {
+        "id": "player18",
+        "name": "KL RAHUL",
+        "role": "Wicketkeeper-Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86,
+        "stats": {
+          "runs": 4775,
+          "matches": 134,
+          "average": 45.07
+        },
+        "imageUrl": "https://www.lucknowsupergiants.in/static-assets/images/players/60122.png?v=12.64",
+        "order": 18
+      },
+      "player19": {
+        "id": "player19",
+        "name": "AXAR PATEL",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 87,
+        "stats": {
+          "runs": 3147,
+          "wickets": 123,
+          "matches": 153
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStKjG7VmbocwLX_ga_EswmfLX86mQYczpaJQ&s",
+        "order": 19
+      },
+      "player20": {
+        "id": "player20",
+        "name": "MOHAMMED SHAMI",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.26,
+        "stats": {
+          "wickets": 132,
+          "matches": 115,
+          "economy": 8.44
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSog20IJSvJZdfR3408MijeJcZZR0TZ5mTiSQ&s",
+        "order": 20
+      },
+      "player21": {
+        "id": "player21",
+        "name": "SHUBMAN GILL",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.02,
+        "stats": {
+          "runs": 3362,
+          "matches": 107,
+          "average": 38.7
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYhDFGgcZG3nWNFdw2fmhU1_WyE4JyS6kBUw&s",
+        "order": 21
+      },
+      "player22": {
+        "id": "player22",
+        "name": "YUZVENDRA CHAHAL",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.72,
+        "stats": {
+          "wickets": 206,
+          "matches": 163,
+          "economy": 7.8
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo1G_j9tvXcUKeiW0V2C9y_v4nWSuXi-Zf0g&s",
+        "order": 22
+      },
+      "player23": {
+        "id": "player23",
+        "name": "ANDRE RUSSELL \u2708",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 89.5,
+        "stats": {
+          "runs": 2494,
+          "wickets": 119,
+          "matches": 130
+        },
+        "imageUrl": "https://static.toiimg.com/thumb/msid-115234651,width-1280,height-720,imgsize-46222,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "order": 23
+      },
+      "player24": {
+        "id": "player24",
+        "name": "KAGISO RABADA \u2708",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.69,
+        "stats": {
+          "wickets": 119,
+          "matches": 82,
+          "economy": 8.42
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuYDHtufQp-egUFi3J6yc18aC6Pq4b0Q4zTg&s",
+        "order": 24
+      },
+      "player25": {
+        "id": "player25",
+        "name": "PHIL SALT \u2708",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 94,
+        "stats": {
           "runs": 750,
-      "matches": 25,
-      "average": 33.4
-          },
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfPilERhqBeOldI3vI9uFcohTaSmpzasrew&s"
+          "matches": 25,
+          "average": 33.4
         },
-        "player26": {
-          "id": "player26",
-          "name": "JITESH SHARMA",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 84,
-          "stats": {
-            "runs": 815,
-      "matches": 44,
-      "average": 23.4
-          },
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsZCczrGm72advvjKAgdgztbwxUDpG6oXnkQ&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfPilERhqBeOldI3vI9uFcohTaSmpzasrew&s",
+        "order": 25
+      },
+      "player26": {
+        "id": "player26",
+        "name": "JITESH SHARMA",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84,
+        "stats": {
+          "runs": 815,
+          "matches": 44,
+          "average": 23.4
         },
-        "player27": {
-          "id": "player27",
-          "name": "DHRUV JUREL",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 84.4,
-          "stats": {
-           "runs": 466,
-      "matches": 31,
-      "average": 25.4
-          },
-          "imageUrl": "https://www.rajasthanroyals.com/static-assets/images/players/71370.png?v=7.06"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsZCczrGm72advvjKAgdgztbwxUDpG6oXnkQ&s",
+        "order": 26
+      },
+      "player27": {
+        "id": "player27",
+        "name": "DHRUV JUREL",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.4,
+        "stats": {
+          "runs": 466,
+          "matches": 31,
+          "average": 25.4
         },
-        "player28": {
-          "id": "player28",
-          "name": "SANJU SAMSON",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 83.68,
-          "stats": {
-            "runs": 4556,
-      "matches": 171,
-      "average": 30.4
-          },
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeI75yDC_LPYSdFCqSiPJbH237yM98SANtzA&s"
+        "imageUrl": "https://www.rajasthanroyals.com/static-assets/images/players/71370.png?v=7.06",
+        "order": 27
+      },
+      "player28": {
+        "id": "player28",
+        "name": "SANJU SAMSON",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.68,
+        "stats": {
+          "runs": 4556,
+          "matches": 171,
+          "average": 30.4
         },
-        "player29": {
-          "id": "player29",
-          "name": "ISHAN KISHAN",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 81.86,
-          "stats": {
-            "runs": 2771,
-      "matches": 110,
-      "average": 28.4
-          },
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9L3Y05XuCZv9Tnv9MtiOy4eg268S7ZJhqQ&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeI75yDC_LPYSdFCqSiPJbH237yM98SANtzA&s",
+        "order": 28
+      },
+      "player29": {
+        "id": "player29",
+        "name": "ISHAN KISHAN",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.86,
+        "stats": {
+          "runs": 2771,
+          "matches": 110,
+          "average": 28.4
         },
-        "player30": {
-          "id": "player30",
-          "name": "ABHISHEK POREL",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 85.44,
-          "stats": {
-            "runs": 427,
-      "matches": 21,
-      "average": 26.69
-          },
-          "imageUrl": "https://ipltable.in/wp-content/uploads/2024/02/image-60-700x700.jpeg"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo9L3Y05XuCZv9Tnv9MtiOy4eg268S7ZJhqQ&s",
+        "order": 29
+      },
+      "player30": {
+        "id": "player30",
+        "name": "ABHISHEK POREL",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.44,
+        "stats": {
+          "runs": 427,
+          "matches": 21,
+          "average": 26.69
         },
-        "player31": {
-          "id": "player31",
-          "name": "TRISTAN STUBBS ✈",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 87.6,
-          "stats": {
-            "runs": 484,
-      "matches": 21,
-      "average": 40.4
-          },
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9AmTpeDhZnp4p7IZ8_WLtm-4EV3Rq__-Bfw&s"
+        "imageUrl": "https://ipltable.in/wp-content/uploads/2024/02/image-60-700x700.jpeg",
+        "order": 30
+      },
+      "player31": {
+        "id": "player31",
+        "name": "TRISTAN STUBBS \u2708",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 87.6,
+        "stats": {
+          "runs": 484,
+          "matches": 21,
+          "average": 40.4
         },
-        "player32": {
-          "id": "player32",
-          "name": "PRABHSIMRAN SINGH",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 83.52,
-          "stats": {
-            "runs": 847,
-      "matches": 37,
-      "average": 22.4
-          },
-          "imageUrl": "https://ipltable.in/wp-content/uploads/2024/03/image-62-700x700.jpeg"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9AmTpeDhZnp4p7IZ8_WLtm-4EV3Rq__-Bfw&s",
+        "order": 31
+      },
+      "player32": {
+        "id": "player32",
+        "name": "PRABHSIMRAN SINGH",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.52,
+        "stats": {
+          "runs": 847,
+          "matches": 37,
+          "average": 22.4
         },
-        "player33": {
-          "id": "player33",
-          "name": "QUINTON DE KOCK ✈",
-          "role": "Wicketkeeper Batsman",
-          "basePrice": 2,
-          "currentBid": 0,
-          "teamId": "",
-          "status": "unsold",
-          "points": 81.84,
-          "stats": {
-           "runs": 3260,
-      "matches": 111,
-      "average": 31.4
-          },
-          "imageUrl": "https://www.hindustantimes.com/static-content/1y/cricket-logos/players/quinton-de-kock.png"
+        "imageUrl": "https://ipltable.in/wp-content/uploads/2024/03/image-62-700x700.jpeg",
+        "order": 32
+      },
+      "player33": {
+        "id": "player33",
+        "name": "QUINTON DE KOCK \u2708",
+        "role": "Wicketkeeper Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.84,
+        "stats": {
+          "runs": 3260,
+          "matches": 111,
+          "average": 31.4
         },
-          "player34": {
-            "id": "player34",
-            "name": "RUTURAJ GAIKWAD",
-            "role": "Batsman",
-            "basePrice": 2,
-            "currentBid": 0,
-            "teamId": "",
-            "status": "unsold",
-            "points": 86.85,
-            "stats": {
-              "runs": 2501,
-              "matches": 70,
-              "average": 41.4
-            },
-            "imageUrl": "https://ipltable.in/wp-content/uploads/2024/02/image-28-700x700.jpeg"
-          },
-          "player35": {
-            "id": "player35",
-            "name": "RAJAT PATIDAR",
-            "role": "Batsman",
-            "basePrice": 2,
-            "currentBid": 0,
-            "teamId": "",
-            "status": "unsold",
-            "points": 93,
-            "stats": {
-              "runs": 960,
-              "matches": 31,
-              "average": 35.4
-            },
-            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrv_A8a6gKC_-a0xJHSlos86fIZKHZxHW-Rg&s"
-          },
-          "player36": {
-            "id": "player36",
-            "name": "JAKE FRASER McGURK ✈",
-            "role": "Batsman",
-            "basePrice": 2,
-            "currentBid": 0,
-            "teamId": "",
-            "status": "unsold",
-            "points": 83,
-            "stats": {
-              "runs": 369,
-              "matches": 12,
-              "average": 30.4
-            },
-            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkSJPvtVuTzXTg1GXyyP6VoKcOh9Mbam19sw&s"
-          },
-          "player37": {
-            "id": "player37",
-            "name": "FAF DU PLESSIS ✈",
-            "role": "Batsman",
-            "basePrice": 2,
-            "currentBid": 0,
-            "teamId": "",
-            "status": "unsold",
-            "points": 84,
-            "stats": {
-              "runs": 4650,
-      "matches": 147,
-      "average": 36.4
-            },
-            "imageUrl": "https://static.toiimg.com/thumb/msid-105835893,width-400,resizemode-4/105835893.jpg"
-          },
-          "player38": {
-            "id": "player38",
-            "name": "TILAK VARMA",
-            "role": "Batsman",
-            "basePrice": 2,
-            "currentBid": 0,
-            "teamId": "",
-            "status": "unsold",
-            "points": 86.75,
-            "stats": {
-              "runs": 1307,
-              "matches": 43,
-              "average": 39.4
-            },
-            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QTlba-1DqCeLjNmRAD_nBzgUWVBTE0uBGQ&s"
-          },
-          "player39": {
-            "id": "player39",
-            "name": "RINKU SINGH",
-            "role": "Batsman",
-            "basePrice": 2,
-            "currentBid": 0,
-            "teamId": "",
-            "status": "unsold",
-            "points": 82.82,
-            "stats": {
-               "runs": 954,
-               "matches": 49,
-              "average": 30.77
-            },
-            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0rqIUm7-F_13nGw5Imy79pKfmj3z5FbTng&s"
-          },
-          "player40": {
-            "id": "player40",
-            "name": "DEVON CONWAY ✈",
-            "role": "Batsman",
-            "basePrice": 2,
-            "currentBid": 0,
-            "teamId": "",
-            "status": "unsold",
-            "points": 91.5,
-            "stats": {
-              "runs": 937,
-              "matches": 24,
-              "average": 46.8
-            },
-            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgVGPo_Ns9eDFDdDhIagmEyqehghYl0r0VwQ&s"
-          },        
+        "imageUrl": "https://www.hindustantimes.com/static-content/1y/cricket-logos/players/quinton-de-kock.png",
+        "order": 33
+      },
+      "player34": {
+        "id": "player34",
+        "name": "RUTURAJ GAIKWAD",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.85,
+        "stats": {
+          "runs": 2501,
+          "matches": 70,
+          "average": 41.4
+        },
+        "imageUrl": "https://ipltable.in/wp-content/uploads/2024/02/image-28-700x700.jpeg",
+        "order": 34
+      },
+      "player35": {
+        "id": "player35",
+        "name": "RAJAT PATIDAR",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 93,
+        "stats": {
+          "runs": 960,
+          "matches": 31,
+          "average": 35.4
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrv_A8a6gKC_-a0xJHSlos86fIZKHZxHW-Rg&s",
+        "order": 35
+      },
+      "player36": {
+        "id": "player36",
+        "name": "JAKE FRASER McGURK \u2708",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83,
+        "stats": {
+          "runs": 369,
+          "matches": 12,
+          "average": 30.4
+        },
+        "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/3115.png",
+        "order": 36
+      },
+      "player37": {
+        "id": "player37",
+        "name": "FAF DU PLESSIS \u2708",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84,
+        "stats": {
+          "runs": 4650,
+          "matches": 147,
+          "average": 36.4
+        },
+        "imageUrl": "https://static.toiimg.com/thumb/msid-105835893,width-400,resizemode-4/105835893.jpg",
+        "order": 37
+      },
+      "player38": {
+        "id": "player38",
+        "name": "TILAK VARMA",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 86.75,
+        "stats": {
+          "runs": 1307,
+          "matches": 43,
+          "average": 39.4
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7QTlba-1DqCeLjNmRAD_nBzgUWVBTE0uBGQ&s",
+        "order": 38
+      },
+      "player39": {
+        "id": "player39",
+        "name": "RINKU SINGH",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.82,
+        "stats": {
+          "runs": 954,
+          "matches": 49,
+          "average": 30.77
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU0rqIUm7-F_13nGw5Imy79pKfmj3z5FbTng&s",
+        "order": 39
+      },
+      "player40": {
+        "id": "player40",
+        "name": "DEVON CONWAY \u2708",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 91.5,
+        "stats": {
+          "runs": 937,
+          "matches": 24,
+          "average": 46.8
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgVGPo_Ns9eDFDdDhIagmEyqehghYl0r0VwQ&s",
+        "order": 40
+      },
       "player41": {
         "id": "player41",
         "name": "AJINKYA RAHANE",
         "role": "Batsman",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
-        "points": 78.61
-        ,
+        "points": 78.61,
         "stats": {
           "runs": 4765,
           "matches": 189,
           "average": 30.16
         },
-        "imageUrl": "https://www.kkr.in/static-assets/images/players/3991.png?v=111.75"
+        "imageUrl": "https://www.kkr.in/static-assets/images/players/3991.png?v=111.75",
+        "order": 41
       },
       "player42": {
         "id": "player42",
         "name": "SAI SUDHARSAN",
         "role": "Batsman",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 92.28,
@@ -672,14 +713,15 @@
           "runs": 29,
           "average": 47.12
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsocaeGcK7MYTG9EZQAVgQ-qqznBncEdMWRQ&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsocaeGcK7MYTG9EZQAVgQ-qqznBncEdMWRQ&s",
+        "order": 42
       },
       "player43": {
         "id": "player43",
-        "name": "DAVID MILLER(✈)",
+        "name": "DAVID MILLER(\u2708)",
         "role": "Batsman",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 81.75,
@@ -688,14 +730,15 @@
           "matches": 134,
           "average": 36.27
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_XRj7jcowyoUGG0tacbvGlsPG_A5yZ0giQ&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_XRj7jcowyoUGG0tacbvGlsPG_A5yZ0giQ&s",
+        "order": 43
       },
       "player44": {
         "id": "player44",
-        "name": "NOOR AHMAD (✈)",
+        "name": "NOOR AHMAD (\u2708)",
         "role": "Bowler",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 84.83,
@@ -704,14 +747,15 @@
           "economy": 8.01,
           "wickets": 34
         },
-        "imageUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/380300/380342.jpg"
+        "imageUrl": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/380300/380342.jpg",
+        "order": 44
       },
       "player45": {
         "id": "player45",
-        "name": "TRENT BOULT (✈)",
+        "name": "TRENT BOULT (\u2708)",
         "role": "Bowler",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 82.39,
@@ -720,30 +764,32 @@
           "economy": 8.34,
           "wickets": 126
         },
-        "imageUrl": "https://cricshots.com/wp-content/uploads/2024/01/trent-boult-ilt20-mi.jpg"
+        "imageUrl": "https://cricshots.com/wp-content/uploads/2024/01/trent-boult-ilt20-mi.jpg",
+        "order": 45
       },
       "player46": {
         "id": "player46",
         "name": "VARUN CHAKRAVARTHY",
         "role": "Bowler",
-        "basePrice": 8,
-        "currentBid": 0,
+        "basePrice": 2,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 84.83,
         "stats": {
-         "matches": 74,
+          "matches": 74,
           "economy": 7.49,
           "wickets": 89
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERQMSydt-vj9cYebaCLvR-oo8owfBLYk7rg&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQERQMSydt-vj9cYebaCLvR-oo8owfBLYk7rg&s",
+        "order": 46
       },
       "player47": {
         "id": "player47",
         "name": "ARSHDEEP SINGH",
         "role": "Bowler",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 82.31,
@@ -752,30 +798,32 @@
           "economy": 9.07,
           "wickets": 82
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCZ0Pe6k-2FjRiWc8URJIYZ3n4Kzis4RF8iw&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCZ0Pe6k-2FjRiWc8URJIYZ3n4Kzis4RF8iw&s",
+        "order": 47
       },
       "player48": {
         "id": "player48",
         "name": "KULDEEP YADAV",
         "role": "Bowler",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 82.73,
         "stats": {
-         "matches": 87,
+          "matches": 87,
           "economy": 8.12,
           "wickets": 93
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpOY3Ai1MXlC1vEwhMKvvFp6lSN2E7v7qXig&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpOY3Ai1MXlC1vEwhMKvvFp6lSN2E7v7qXig&s",
+        "order": 48
       },
       "player49": {
         "id": "player49",
-        "name": "JOFRA ARCHER(✈)",
+        "name": "JOFRA ARCHER(\u2708)",
         "role": "Bowler",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 82.93,
@@ -784,30 +832,32 @@
           "economy": 7.71,
           "wickets": 52
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsdRGyVYVdCZ0uyte8BTKKNhg0eALG0E9evQ&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsdRGyVYVdCZ0uyte8BTKKNhg0eALG0E9evQ&s",
+        "order": 49
       },
       "player50": {
         "id": "player50",
-        "name": "MATHEESHA PATHIRANA (✈)",
+        "name": "MATHEESHA PATHIRANA (\u2708)",
         "role": "Bowler",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 86.42,
         "stats": {
-         "matches": 23,
+          "matches": 23,
           "economy": 7.88,
           "wickets": 39
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2e1ImKFuSUg0Xnu0CgeaXtmXwQBMRQ_dJw&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2e1ImKFuSUg0Xnu0CgeaXtmXwQBMRQ_dJw&s",
+        "order": 50
       },
       "player51": {
         "id": "player51",
         "name": "BHUVANESHWAR KUMAR",
         "role": "Bowler",
         "basePrice": 2,
-        "currentBid": 0,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
         "points": 82.64,
@@ -816,828 +866,860 @@
           "economy": 7.58,
           "wickets": 184
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvFDugjKrtgIllnDKjjWeqqLNyO1XCzygYgw&s"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvFDugjKrtgIllnDKjjWeqqLNyO1XCzygYgw&s",
+        "order": 51
       },
-    "player52": {
-  "id": "player52",
-  "name": "JOSH HAZLEWOOD (✈)",
-  "role": "Bowler",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 85.85,
-  "stats": {
-    "matches": 31,
-    "wickets": 43,
-    "economy": 8.02
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmh_f_7Wi54o7z-48gbsewrndVoUvU3SGKWw&s"
-},
-"player53": {
-  "id": "player53",
-  "name": "MITCHELL STARC (✈)",
-  "role": "Bowler",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 85.55,
-  "stats": {
-    "matches": 43,
-    "wickets": 60,
-    "economy": 8.26
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFWN0MMfmF4rpZMp8T6cvoOuX0teTWDIHUMA&s"
-},
-"player54": {
-  "id": "player54",
-  "name": "MOHAMMED SIRAJ",
-  "role": "Bowler",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 80.72,
-  "stats": {
-    "matches": 97,
-    "wickets": 102,
-    "economy": 8.61
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHtW5kTNhr09hpZ6cGYB8X8JGm_aqwivqV5w&s"
-},
-"player55": {
-  "id": "player55",
-  "name": "SHIVAM DUBE",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 81.28,
-  "stats": {
-    "matches": 69,
-    "runs": 1566,
-    "wickets": 5
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkpcUMG5EDyGN3LzupB1S2pQxWB5RlN5sFlg&s"
-},
-"player56": {
-  "id": "player56",
-  "name": "RAVICHANDRAN ASHWIN",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 72.96,
-  "stats": {
-    "matches": 215,
-    "wickets": 183,
-    "runs": 811
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrFmOi0CcqGUtjpVgX3ZYAgl4bEub_qHAWNQ&s"
-},
-"player57": {
-  "id": "player57",
-  "name": "NITISH KUMAR REDDY",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 70.64,
-  "stats": {
-    "matches": 20,
-    "runs": 415,
-    "wickets": 3
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPcZoQj0A-AaS44OtikaNr8Zg4dccBNHbwg&s"
-},
-"player58": {
-  "id": "player58",
-  "name": "KRUNAL PANDYA",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 76.32,
-  "stats": {
-    "matches": 131,
-    "runs": 1652,
-    "wickets": 83
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzinK287rzBpyVtUwX-htzglwyvelRdj3fCQ&s"
-},
-"player59": {
-  "id": "player59",
-  "name": "LIAM LIVINGSTONE (✈)",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 85.49,
-  "stats": {
-    "matches": 43,
-    "runs": 1018,
-    "wickets": 13
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEESHL8J2NTrvV7rv04bKWA-tYvUCURjuFKA&s"
-},
-"player60": {
-  "id": "player60",
-  "name": "GLENN MAXWELL (✈)",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 83.73,
-  "stats": {
-    "matches": 137,
-    "runs": 2800,
-    "wickets": 39
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGK1UpswDGm7yKpN9Enffsicz1TWeGodWQg&s"
-},
-      "player61": {
-        "id": "player60",
-        "name": "MARCUS STOINIS",
-        "role": "All-Rounder",
-        "basePrice": 9,
-        "currentBid": 0,
+      "player52": {
+        "id": "player52",
+        "name": "JOSH HAZLEWOOD (\u2708)",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
         "teamId": "",
         "status": "unsold",
-        "points": 82.5,
+        "points": 85.85,
         "stats": {
-          "matches": 99,
-          "runs": 1887,
-          "wickets": 43
+          "matches": 31,
+          "wickets": 43,
+          "economy": 8.02
         },
-        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxj0KGwoqmCOYNHV2VIxPbVf6uXUDO2R6FNg&s"
-    
-    },
-    "player61": {
-  "id": "player61",
-  "name": "WANINDU HASARANGA",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 79.73,
-  "stats": {
-    "matches": 29,
-    "runs": 80,
-    "wickets": 41
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXHLfvz44xPTUwe38UAHoUXxrSHL2D47uEuA&s"
-},
-"player62": {
-  "id": "player62",
-  "name": "VENKATESH IYER",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 80.25,
-  "stats": {
-    "matches": 54,
-    "runs": 1395,
-    "wickets": 3
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sD0jOwb9rjkkoyu1_9HlOxEUkDtWvBPARQ&s"
-},
-"player63": {
-  "id": "player63",
-  "name": "DEEPAK CHAHAR",
-  "role": "All-Rounder",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 78.48,
-  "stats": {
-    "matches": 86,
-    "runs": 108,
-    "wickets": 81
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_T3_Y7tHdZ-A0hMtOuJBnlJibtGP_5mx2Pw&s"
-},
-"player64": {
-  "id": "player64",
-  "name": "RACHIN RAVINDRA (✈)",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 84.32,
-  "stats": {
-    "runs": 331,
-      "matches": 14,
-      "average": 25.4
-  },
-  "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/724.png"
-},
-"player65": {
-  "id": "player65",
-  "name": "DEVDUTT PADIKKAL",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 73.4,
-  "stats": {
-    "runs": 1637,
-      "matches": 68,
-      "average": 24.4
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS6TyozNtUfgKV01U9Iq2Y21jNIhsTA5ubIQ&s"
-},
-"player66": {
-  "id": "player66",
-  "name": "DEEPAK HOODA",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 72.0,
-  "stats": {
-   "runs": 1472,
-      "matches": 120,
-      "average": 17.4
-  },
-  "imageUrl": "https://cinetown.s3.ap-south-1.amazonaws.com/people/profile_img/1714157747.png"
-},
-"player67": {
-  "id": "player67",
-  "name": "MANISH PANDEY",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 75.56,
-  "stats": {
-    "runs": 3869,
-      "matches": 172,
-      "average": 29.4
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_GNCtbiugemkjoXUmDjAQUjtlIsi0bcqmLw&s"
-},
-"player68": {
-  "id": "player68",
-  "name": "KARUN NAIR",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 75.34,
-  "stats": {
-    "runs": 1496,
-      "matches": 76,
-      "average": 23.4
-  },
-  "imageUrl": "https://i.cdn.newsbytesapp.com/sports/players/profile/karun-nair.png"
-},
-"player69": {
-  "id": "player69",
-  "name": "ASHUTOSH SHARMA",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 81.0,
-  "stats": {
-   "runs": 256,
-      "matches": 13,
-      "average": 32.4
-  },
-  "imageUrl": "https://www.punjabkingsipl.in/static-assets/images/players/68176.png?v=6.18"
-},
-"player70": {
-  "id": "player70",
-  "name": "SHASHANK SINGH",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 83.0,
-  "stats": {
-    "runs": 477,
-      "matches": 28,
-      "average": 39.4
-  },
-  "imageUrl": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3261.png"
-},
-"player71": {
-  "id": "player71",
-  "name": "RAHUL TRIPATHI",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 81.0,
-  "stats": {
-    "runs": 2266,
-      "matches": 98,
-      "average": 26.4
-  },
-  "imageUrl": "https://opt.toiimg.com/recuperator/img/toi/m-63381712/63381712.jpg"
-},
-"player72": {
-  "id": "player72",
-  "name": "TIM DAVID (✈)",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 78.63,
-  "stats": {
-   "runs": 714,
-      "matches": 42,
-      "average": 29.4
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi5lMm0cDAtFfOIp2OX5XOyHtOnriEqRJUhw&s"
-},
-"player73": {
-  "id": "player73",
-  "name": "SHIMRON HETMYER (✈)",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 78.01,
-  "stats": {
-   "runs": 1339,
-      "matches": 76,
-      "average": 35.4
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlylaDT9AOJRVTpIYhshZJ25vb4tFMnexrbA&s"
-},
-"player74": {
-  "id": "player74",
-  "name": "SHAHRUKH KHAN",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 73.1,
-  "stats": {
-   "runs": 568,
-      "matches": 44,
-      "average": 19.4
-  },
-  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8nVGAwIuz7nMNwfidMfbgDOO6vsr0Hvq9w&s"
-},
-"player75": {
-  "id": "player75",
-  "name": "MAHIPAL LOMROR",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 78.0,
-  "stats": {
-   "runs": 527,
-      "matches": 40,
-      "average": 18.4
-  },
-  "imageUrl": "https://ipltable.in/wp-content/uploads/2024/03/image-50.jpeg"
-},
-"player76": {
-  "id": "player76",
-  "name": "ANUJ RAWAT",
-  "role": "Batsman",
-  "basePrice": 2,
-  "currentBid": 0,
-  "teamId": "",
-  "status": "unsold",
-  "points": 70.1,
-  "stats": {
-    "runs": 319,
-      "matches": 24,
-      "average": 19.4
-  },
-  "imageUrl": "https://ipltable.in/wp-content/uploads/2024/03/image-88-700x700.jpeg"
-},
-
-  "player77": {
-    "id": "player77",
-    "name": "NATHAN ELLIS ✈",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 81.29,
-    "stats": {
-      "wickets": 19,
-      "matches": 17,
-      "economy": 8.39
-    },
-    "imageUrl": "https://static.toiimg.com/thumb/msid-85509464,width-400,resizemode-4/85509464.jpg"
-  },
-  "player78": {
-    "id": "player78",
-    "name": "AVESH KHAN",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 81.78,
-    "stats": {
-      "wickets": 76,
-      "matches": 64,
-      "economy": 8.39
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKbuFeNVx-plU4335VYIhWvZiKMpc5pBRQOg&s"
-  },
-  "player79": {
-    "id": "player79",
-    "name": "KHALEEL AHMED",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 83.28,
-    "stats": {
-     "wickets": 82,
-      "matches": 61,
-      "economy": 8.39
-    },
-    "imageUrl": "https://static.toiimg.com/thumb/msid-110008960,width-1280,height-720,imgsize-30382,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg"
-  },
-  "player80": {
-    "id": "player80",
-    "name": "SANDEEP SHARMA",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 82.31,
-    "stats": {
-      "wickets": 141,
-      "matches": 130,
-      "economy": 7.9
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZVLKD5GeFNO9--gBgPeCOblJ9s9rXm7gUw&s"
-  },
-  "player81": {
-    "id": "player81",
-    "name": "TUSHAR DESHPANDE",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 80.265,
-    "stats": {
-      "wickets": 45,
-      "matches": 39,
-      "economy": 9.7
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4prY328-EnUwfPH-xWBLXiHk3QBTED_p-5Q&s"
-  },
-  "player82": {
-    "id": "player82",
-    "name": "MOHIT SHARMA",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 81.16,
-    "stats": {
-      "wickets": 133,
-      "matches": 115,
-      "economy": 8.69
-    },
-    "imageUrl": "https://www.thestatesman.com/wp-content/uploads/2020/02/DvCHCVsU8AALBce.jpg"
-  },
-  "player83": {
-    "id": "player83",
-    "name": "T NATRAJAN",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 80.8,
-    "stats": {
-      "wickets": 67,
-      "matches": 61,
-      "economy": 8.89
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZq7dDXft_Aux9R-Wyn9l-fiYSPl1bi8h05Q&s"
-  },
-  "player84": {
-    "id": "player84",
-    "name": "ANRICH NORTJE ✈",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 82.4,
-    "stats": {
-      "wickets": 60,
-      "matches": 46,
-      "economy": 8.39
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-tAe96VarGUMesj-3EWNbpy9DYM7z4kQWAQ&s"
-  },
-  "player85": {
-    "id": "player85",
-    "name": "PRASIDH KRISHNA",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 78.36,
-    "stats": {
-      "wickets": 54,
-      "matches": 55,
-      "economy": 8.81
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rH_8ghKNGjBR_wezK2F0WyDoxEvGsIsXUA&s"
-  },
-  "player86": {
-    "id": "player86",
-    "name": "SHARDUL THAKUR",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 78.5,
-    "stats": {
-      "wickets": 101,
-      "matches": 100,
-      "economy": 9.29
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJYuVAG2QWNOcbvd0iwaff79KbaiOotHHHhQ&s"
-  },
-  "player87": {
-    "id": "player87",
-    "name": "YASH DAYAL",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 79.49,
-    "stats": {
-      "wickets": 32,
-      "matches": 32,
-      "economy": 9.49
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZOPiKMWEgW79nD0RiMpQOi4MXqOzE-ePAg&s"
-  },
-  "player88": {
-    "id": "player88",
-    "name": "LOCKIE FERGUSON ✈",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 78.6,
-    "stats": {
-      "wickets": 47,
-      "matches": 49,
-      "economy": 8.96
-    },
-    "imageUrl": "https://static.toiimg.com/thumb/msid-95332361,width-1280,height-720,resizemode-4/95332361.jpg"
-  },
-  "player89": {
-    "id": "player89",
-    "name": "RAVI BISHNOI",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 80.7,
-    "stats": {
-      "wickets": 66,
-      "matches": 70,
-      "economy": 8
-    },
-    "imageUrl": "https://ipltable.in/wp-content/uploads/2024/03/image-3-700x700.jpeg"
-  },
-  "player90": {
-    "id": "player90",
-    "name": "VAIBHAV ARORA",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 81.59,
-    "stats": {
-     "wickets": 25,
-      "matches": 23,
-      "economy": 9.22
-    },
-    "imageUrl": "https://www.kkr.in/static-assets/images/players/74298.png?v=111.72"
-  },
-  "player91": {
-    "id": "player91",
-    "name": "SAI KISHORE",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 82.86,
-    "stats": {
-      "wickets": 21,
-      "matches": 14,
-      "economy": 7.89
-    },
-    "imageUrl": "https://www.gujarattitansipl.com/static-assets/waf-images/0e/b7/97/1-1/kqDb8DfbOb.jpg?v=2.32&w=1024"
-  },
-  "player92": {
-    "id": "player92",
-    "name": "HARSHIT RANA",
-    "role": "Bowler",
-    "basePrice": 2,
-    "currentBid": 0,
-    "teamId": "",
-    "status": "unsold",
-    "points": 83.1,
-    "stats": {
-      "wickets": 28,
-      "matches": 24,
-      "economy": 9.09
-    },
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgdpEzyVdQxwWEUoSql1lR05G_PWZ53xzuZQ&s"
-  },
-    "player93": {
-      "id": "player93",
-      "name": "WASHINGTON SUNDAR",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 79.21,
-      "stats": {
-        "runs": 427,
-      "wickets": 37,
-      "matches": 60
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmh_f_7Wi54o7z-48gbsewrndVoUvU3SGKWw&s",
+        "order": 52
       },
-      "imageUrl": "https://i0.wp.com/crictoday.com/wp-content/uploads/2023/02/Washington-Sundar-removebg-preview.png?ssl=1"
-    },
-    "player94": {
-      "id": "player94",
-      "name": "RIYAN PARAG",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 75.33,
-      "stats": {
-        "runs": 1282,
-      "wickets": 3,
-      "matches": 73
+      "player53": {
+        "id": "player53",
+        "name": "MITCHELL STARC (\u2708)",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.55,
+        "stats": {
+          "matches": 43,
+          "wickets": 60,
+          "economy": 8.26
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFWN0MMfmF4rpZMp8T6cvoOuX0teTWDIHUMA&s",
+        "order": 53
       },
-      "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202407/riyan-parag-024239245-3x4.jpg?VersionId=KX7FVn20sLKmxJIwYPXsAfKzAIJruoyy"
-    },
-    "player95": {
-      "id": "player95",
-      "name": "NITISH RANA",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 81.93,
-      "stats": {
-        "runs": 2748,
-      "wickets": 10,
-      "matches": 111
+      "player54": {
+        "id": "player54",
+        "name": "MOHAMMED SIRAJ",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 80.72,
+        "stats": {
+          "matches": 97,
+          "wickets": 102,
+          "economy": 8.61
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHtW5kTNhr09hpZ6cGYB8X8JGm_aqwivqV5w&s",
+        "order": 54
       },
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdCITFLAS0Dn9dluFdwMTwBCAwtZoh7JKw2Q&s"
-    },
-    "player96": {
-      "id": "player96",
-      "name": "MITCHELL SANTNER ✈",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 75.27,
-      "stats": {
-        "runs": 109,
-        "wickets": 16,
-        "matches": 23
+      "player55": {
+        "id": "player55",
+        "name": "SHIVAM DUBE",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.28,
+        "stats": {
+          "matches": 69,
+          "runs": 1566,
+          "wickets": 5
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkpcUMG5EDyGN3LzupB1S2pQxWB5RlN5sFlg&s",
+        "order": 55
       },
-      "imageUrl": "https://images.mykhel.com/webp/images/cricket/players/6/7526.jpg"
-    },
-    "player97": {
-      "id": "player97",
-      "name": "VIJAY SHANKAR",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 75.64,
-      "stats": {
-        "runs": 1193,
-        "wickets": 9,
-        "matches": 74
+      "player56": {
+        "id": "player56",
+        "name": "RAVICHANDRAN ASHWIN",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 72.96,
+        "stats": {
+          "matches": 215,
+          "wickets": 183,
+          "runs": 811
+        },
+        "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/45.png",
+        "order": 56
       },
-      "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/61.png"
-    },
-    "player98": {
-      "id": "player98",
-      "name": "SAM CURRAN ✈",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 77.51,
-      "stats": {
-        "runs": 895,
-        "wickets": 58,
-        "matches": 61
+      "player57": {
+        "id": "player57",
+        "name": "NITISH KUMAR REDDY",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 70.64,
+        "stats": {
+          "matches": 20,
+          "runs": 415,
+          "wickets": 3
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJPcZoQj0A-AaS44OtikaNr8Zg4dccBNHbwg&s",
+        "order": 57
       },
-      "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/138.png"
-    },
-    "player99": {
-      "id": "player99",
-      "name": "MARCO JANSEN ✈",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 74.91,
-      "stats": {
-        "runs": 69,
-        "wickets": 23,
-        "matches": 23
+      "player58": {
+        "id": "player58",
+        "name": "KRUNAL PANDYA",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 76.32,
+        "stats": {
+          "matches": 131,
+          "runs": 1652,
+          "wickets": 83
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzinK287rzBpyVtUwX-htzglwyvelRdj3fCQ&s",
+        "order": 58
       },
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTui6ISH3TxjwC2qv5BchnmRB_ovz0emidbLlZkWTq8nu8nktO3GUhEFw-3NOjqFqFVDP0&usqp=CAU"
-    },
-    "player100": {
-      "id": "player100",
-      "name": "AIDEN MARKRAM ✈",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 78.55,
-      "stats": {
-        "runs": 1092,
-      "wickets": 2,
-      "matches": 48
+      "player59": {
+        "id": "player59",
+        "name": "LIAM LIVINGSTONE (\u2708)",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 85.49,
+        "stats": {
+          "matches": 43,
+          "runs": 1018,
+          "wickets": 13
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEESHL8J2NTrvV7rv04bKWA-tYvUCURjuFKA&s",
+        "order": 59
       },
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpOG5J8Fq8al-bePB5oYelhGCUG_h8VNyFAQ&s"
-    },
-    "player101": {
-      "id": "player101",
-      "name": "NEHAL WADHERA",
-      "role": "All-Rounder",
-      "basePrice": 2,
-      "currentBid": 0,
-      "teamId": "",
-      "status": "unsold",
-      "points": 79.56,
-      "stats": {
-        "runs":455,
-        "wickets": 0,
-        "matches": 22
+      "player60": {
+        "id": "player60",
+        "name": "GLENN MAXWELL (\u2708)",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.73,
+        "stats": {
+          "matches": 137,
+          "runs": 2800,
+          "wickets": 39
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkGK1UpswDGm7yKpN9Enffsicz1TWeGodWQg&s",
+        "order": 60
       },
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHRNaL9rIphEDhyjmO2Pz0ce7LYzU7hacpw&s"
-    }
-  },
-  
+      "player61": {
+        "id": "player61",
+        "name": "WANINDU HASARANGA",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 79.73,
+        "stats": {
+          "matches": 29,
+          "runs": 80,
+          "wickets": 41
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXHLfvz44xPTUwe38UAHoUXxrSHL2D47uEuA&s",
+        "order": 61
+      },
+      "player62": {
+        "id": "player62",
+        "name": "VENKATESH IYER",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 80.25,
+        "stats": {
+          "matches": 54,
+          "runs": 1395,
+          "wickets": 3
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3sD0jOwb9rjkkoyu1_9HlOxEUkDtWvBPARQ&s",
+        "order": 62
+      },
+      "player63": {
+        "id": "player63",
+        "name": "DEEPAK CHAHAR",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.48,
+        "stats": {
+          "matches": 86,
+          "runs": 108,
+          "wickets": 81
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_T3_Y7tHdZ-A0hMtOuJBnlJibtGP_5mx2Pw&s",
+        "order": 63
+      },
+      "player64": {
+        "id": "player64",
+        "name": "RACHIN RAVINDRA (\u2708)",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 84.32,
+        "stats": {
+          "runs": 331,
+          "matches": 14,
+          "average": 25.4
+        },
+        "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2024/724.png",
+        "order": 64
+      },
+      "player65": {
+        "id": "player65",
+        "name": "DEVDUTT PADIKKAL",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 73.4,
+        "stats": {
+          "runs": 1637,
+          "matches": 68,
+          "average": 24.4
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS6TyozNtUfgKV01U9Iq2Y21jNIhsTA5ubIQ&s",
+        "order": 65
+      },
+      "player66": {
+        "id": "player66",
+        "name": "DEEPAK HOODA",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 72.0,
+        "stats": {
+          "runs": 1472,
+          "matches": 120,
+          "average": 17.4
+        },
+        "imageUrl": "https://cinetown.s3.ap-south-1.amazonaws.com/people/profile_img/1714157747.png",
+        "order": 66
+      },
+      "player67": {
+        "id": "player67",
+        "name": "MANISH PANDEY",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 75.56,
+        "stats": {
+          "runs": 3869,
+          "matches": 172,
+          "average": 29.4
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_GNCtbiugemkjoXUmDjAQUjtlIsi0bcqmLw&s",
+        "order": 67
+      },
+      "player68": {
+        "id": "player68",
+        "name": "KARUN NAIR",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 75.34,
+        "stats": {
+          "runs": 1496,
+          "matches": 76,
+          "average": 23.4
+        },
+        "imageUrl": "https://i.cdn.newsbytesapp.com/sports/players/profile/karun-nair.png",
+        "order": 68
+      },
+      "player69": {
+        "id": "player69",
+        "name": "ASHUTOSH SHARMA",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.0,
+        "stats": {
+          "runs": 256,
+          "matches": 13,
+          "average": 32.4
+        },
+        "imageUrl": "https://www.punjabkingsipl.in/static-assets/images/players/68176.png?v=6.18",
+        "order": 69
+      },
+      "player70": {
+        "id": "player70",
+        "name": "SHASHANK SINGH",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.0,
+        "stats": {
+          "runs": 477,
+          "matches": 28,
+          "average": 39.4
+        },
+        "imageUrl": "https://assets.iplt20.com/ipl/IPLHeadshot2022/3261.png",
+        "order": 70
+      },
+      "player71": {
+        "id": "player71",
+        "name": "RAHUL TRIPATHI",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.0,
+        "stats": {
+          "runs": 2266,
+          "matches": 98,
+          "average": 26.4
+        },
+        "imageUrl": "https://opt.toiimg.com/recuperator/img/toi/m-63381712/63381712.jpg",
+        "order": 71
+      },
+      "player72": {
+        "id": "player72",
+        "name": "TIM DAVID (\u2708)",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.63,
+        "stats": {
+          "runs": 714,
+          "matches": 42,
+          "average": 29.4
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi5lMm0cDAtFfOIp2OX5XOyHtOnriEqRJUhw&s",
+        "order": 72
+      },
+      "player73": {
+        "id": "player73",
+        "name": "SHIMRON HETMYER (\u2708)",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.01,
+        "stats": {
+          "runs": 1339,
+          "matches": 76,
+          "average": 35.4
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlylaDT9AOJRVTpIYhshZJ25vb4tFMnexrbA&s",
+        "order": 73
+      },
+      "player74": {
+        "id": "player74",
+        "name": "SHAHRUKH KHAN",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 73.1,
+        "stats": {
+          "runs": 568,
+          "matches": 44,
+          "average": 19.4
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8nVGAwIuz7nMNwfidMfbgDOO6vsr0Hvq9w&s",
+        "order": 74
+      },
+      "player75": {
+        "id": "player75",
+        "name": "MAHIPAL LOMROR",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.0,
+        "stats": {
+          "runs": 527,
+          "matches": 40,
+          "average": 18.4
+        },
+        "imageUrl": "https://ipltable.in/wp-content/uploads/2024/03/image-50.jpeg",
+        "order": 75
+      },
+      "player76": {
+        "id": "player76",
+        "name": "ANUJ RAWAT",
+        "role": "Batsman",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 70.1,
+        "stats": {
+          "runs": 319,
+          "matches": 24,
+          "average": 19.4
+        },
+        "imageUrl": "https://ipltable.in/wp-content/uploads/2024/03/image-88-700x700.jpeg",
+        "order": 76
+      },
+      "player77": {
+        "id": "player77",
+        "name": "NATHAN ELLIS \u2708",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.29,
+        "stats": {
+          "wickets": 19,
+          "matches": 17,
+          "economy": 8.39
+        },
+        "imageUrl": "https://static.toiimg.com/thumb/msid-85509464,width-400,resizemode-4/85509464.jpg",
+        "order": 77
+      },
+      "player78": {
+        "id": "player78",
+        "name": "AVESH KHAN",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.78,
+        "stats": {
+          "wickets": 76,
+          "matches": 64,
+          "economy": 8.39
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKbuFeNVx-plU4335VYIhWvZiKMpc5pBRQOg&s",
+        "order": 78
+      },
+      "player79": {
+        "id": "player79",
+        "name": "KHALEEL AHMED",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.28,
+        "stats": {
+          "wickets": 82,
+          "matches": 61,
+          "economy": 8.39
+        },
+        "imageUrl": "https://static.toiimg.com/thumb/msid-110008960,width-1280,height-720,imgsize-30382,resizemode-6,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+        "order": 79
+      },
+      "player80": {
+        "id": "player80",
+        "name": "SANDEEP SHARMA",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.31,
+        "stats": {
+          "wickets": 141,
+          "matches": 130,
+          "economy": 7.9
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNZVLKD5GeFNO9--gBgPeCOblJ9s9rXm7gUw&s",
+        "order": 80
+      },
+      "player81": {
+        "id": "player81",
+        "name": "TUSHAR DESHPANDE",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 80.265,
+        "stats": {
+          "wickets": 45,
+          "matches": 39,
+          "economy": 9.7
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4prY328-EnUwfPH-xWBLXiHk3QBTED_p-5Q&s",
+        "order": 81
+      },
+      "player82": {
+        "id": "player82",
+        "name": "MOHIT SHARMA",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.16,
+        "stats": {
+          "wickets": 133,
+          "matches": 115,
+          "economy": 8.69
+        },
+        "imageUrl": "https://www.thestatesman.com/wp-content/uploads/2020/02/DvCHCVsU8AALBce.jpg",
+        "order": 82
+      },
+      "player83": {
+        "id": "player83",
+        "name": "T NATRAJAN",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 80.8,
+        "stats": {
+          "wickets": 67,
+          "matches": 61,
+          "economy": 8.89
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZq7dDXft_Aux9R-Wyn9l-fiYSPl1bi8h05Q&s",
+        "order": 83
+      },
+      "player84": {
+        "id": "player84",
+        "name": "ANRICH NORTJE \u2708",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.4,
+        "stats": {
+          "wickets": 60,
+          "matches": 46,
+          "economy": 8.39
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-tAe96VarGUMesj-3EWNbpy9DYM7z4kQWAQ&s",
+        "order": 84
+      },
+      "player85": {
+        "id": "player85",
+        "name": "PRASIDH KRISHNA",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.36,
+        "stats": {
+          "wickets": 54,
+          "matches": 55,
+          "economy": 8.81
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2rH_8ghKNGjBR_wezK2F0WyDoxEvGsIsXUA&s",
+        "order": 85
+      },
+      "player86": {
+        "id": "player86",
+        "name": "SHARDUL THAKUR",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.5,
+        "stats": {
+          "wickets": 101,
+          "matches": 100,
+          "economy": 9.29
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJYuVAG2QWNOcbvd0iwaff79KbaiOotHHHhQ&s",
+        "order": 86
+      },
+      "player87": {
+        "id": "player87",
+        "name": "YASH DAYAL",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 79.49,
+        "stats": {
+          "wickets": 32,
+          "matches": 32,
+          "economy": 9.49
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyZOPiKMWEgW79nD0RiMpQOi4MXqOzE-ePAg&s",
+        "order": 87
+      },
+      "player88": {
+        "id": "player88",
+        "name": "LOCKIE FERGUSON \u2708",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.6,
+        "stats": {
+          "wickets": 47,
+          "matches": 49,
+          "economy": 8.96
+        },
+        "imageUrl": "https://static.toiimg.com/thumb/msid-95332361,width-1280,height-720,resizemode-4/95332361.jpg",
+        "order": 88
+      },
+      "player89": {
+        "id": "player89",
+        "name": "RAVI BISHNOI",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 80.7,
+        "stats": {
+          "wickets": 66,
+          "matches": 70,
+          "economy": 8
+        },
+        "imageUrl": "https://ipltable.in/wp-content/uploads/2024/03/image-3-700x700.jpeg",
+        "order": 89
+      },
+      "player90": {
+        "id": "player90",
+        "name": "VAIBHAV ARORA",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.59,
+        "stats": {
+          "wickets": 25,
+          "matches": 23,
+          "economy": 9.22
+        },
+        "imageUrl": "https://www.kkr.in/static-assets/images/players/74298.png?v=111.72",
+        "order": 90
+      },
+      "player91": {
+        "id": "player91",
+        "name": "SAI KISHORE",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 82.86,
+        "stats": {
+          "wickets": 21,
+          "matches": 14,
+          "economy": 7.89
+        },
+        "imageUrl": "https://www.gujarattitansipl.com/static-assets/waf-images/0e/b7/97/1-1/kqDb8DfbOb.jpg?v=2.32&w=1024",
+        "order": 91
+      },
+      "player92": {
+        "id": "player92",
+        "name": "HARSHIT RANA",
+        "role": "Bowler",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 83.1,
+        "stats": {
+          "wickets": 28,
+          "matches": 24,
+          "economy": 9.09
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgdpEzyVdQxwWEUoSql1lR05G_PWZ53xzuZQ&s",
+        "order": 92
+      },
+      "player93": {
+        "id": "player93",
+        "name": "WASHINGTON SUNDAR",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 79.21,
+        "stats": {
+          "runs": 427,
+          "wickets": 37,
+          "matches": 60
+        },
+        "imageUrl": "https://i0.wp.com/crictoday.com/wp-content/uploads/2023/02/Washington-Sundar-removebg-preview.png?ssl=1",
+        "order": 93
+      },
+      "player94": {
+        "id": "player94",
+        "name": "RIYAN PARAG",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 75.33,
+        "stats": {
+          "runs": 1282,
+          "wickets": 3,
+          "matches": 73
+        },
+        "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202407/riyan-parag-024239245-3x4.jpg?VersionId=KX7FVn20sLKmxJIwYPXsAfKzAIJruoyy",
+        "order": 94
+      },
+      "player95": {
+        "id": "player95",
+        "name": "NITISH RANA",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 81.93,
+        "stats": {
+          "runs": 2748,
+          "wickets": 10,
+          "matches": 111
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdCITFLAS0Dn9dluFdwMTwBCAwtZoh7JKw2Q&s",
+        "order": 95
+      },
+      "player96": {
+        "id": "player96",
+        "name": "MITCHELL SANTNER \u2708",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 75.27,
+        "stats": {
+          "runs": 109,
+          "wickets": 16,
+          "matches": 23
+        },
+        "imageUrl": "https://images.mykhel.com/webp/images/cricket/players/6/7526.jpg",
+        "order": 96
+      },
+      "player97": {
+        "id": "player97",
+        "name": "VIJAY SHANKAR",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 75.64,
+        "stats": {
+          "runs": 1193,
+          "wickets": 9,
+          "matches": 74
+        },
+        "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/61.png",
+        "order": 97
+      },
+      "player98": {
+        "id": "player98",
+        "name": "SAM CURRAN \u2708",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 77.51,
+        "stats": {
+          "runs": 895,
+          "wickets": 58,
+          "matches": 61
+        },
+        "imageUrl": "https://documents.iplt20.com/ipl/IPLHeadshot2025/138.png",
+        "order": 98
+      },
+      "player99": {
+        "id": "player99",
+        "name": "MARCO JANSEN \u2708",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 74.91,
+        "stats": {
+          "runs": 69,
+          "wickets": 23,
+          "matches": 23
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTui6ISH3TxjwC2qv5BchnmRB_ovz0emidbLlZkWTq8nu8nktO3GUhEFw-3NOjqFqFVDP0&usqp=CAU",
+        "order": 99
+      },
+      "player100": {
+        "id": "player100",
+        "name": "AIDEN MARKRAM \u2708",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 78.55,
+        "stats": {
+          "runs": 1092,
+          "wickets": 2,
+          "matches": 48
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpOG5J8Fq8al-bePB5oYelhGCUG_h8VNyFAQ&s",
+        "order": 100
+      },
+      "player101": {
+        "id": "player101",
+        "name": "NEHAL WADHERA",
+        "role": "All-Rounder",
+        "basePrice": 2,
+        "currentBid": 2,
+        "teamId": "",
+        "status": "unsold",
+        "points": 79.56,
+        "stats": {
+          "runs": 455,
+          "wickets": 0,
+          "matches": 22
+        },
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHRNaL9rIphEDhyjmO2Pz0ce7LYzU7hacpw&s",
+        "order": 101
+      }
+    },
     "teams": {
       "team1": {
         "id": "team1",
@@ -1718,7 +1800,7 @@
         "budget": 88,
         "players": {},
         "logoUrl": "https://example.com/pbks.png"
-    }
+      }
     },
     "bids": {
       "player1": {
@@ -1739,28 +1821,28 @@
             "timestamp": 1620000500,
             "status": "outbid"
           },
-      "player3": {
-        "history": {
-          "bid3": {
-            "amount": 12,
-            "teamId": "team2",
-            "timestamp": 1620001000,
-            "status": "outbid"
+          "player3": {
+            "history": {
+              "bid3": {
+                "amount": 12,
+                "teamId": "team2",
+                "timestamp": 1620001000,
+                "status": "outbid"
+              }
+            }
           }
+        },
+        "settings": {
+          "auctionStatus": "active"
+        }
+      },
+      "users": {
+        "user1": {
+          "email": "admin@example.com",
+          "isAdmin": true,
+          "teamId": ""
         }
       }
-    },
-    "settings": {
-      "auctionStatus": "active"
     }
-  },
-  "users": {
-    "user1": {
-      "email": "admin@example.com",
-      "isAdmin": true,
-      "teamId": ""
-    }
-  }
-}
   }
 }
